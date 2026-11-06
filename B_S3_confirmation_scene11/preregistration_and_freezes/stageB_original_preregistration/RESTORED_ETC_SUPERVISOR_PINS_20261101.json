@@ -1,0 +1,30 @@
+{
+ "utc": "2026-11-01T07:56:34.123487+00:00",
+ "why": "21 pinned inputs of H4176040 input_sha256 lived outside /workspace (/etc/supervisor/conf.d) and were lost on instance change; full-harvest units would fail input_hash_mismatch.",
+ "method": "regenerated from the fixed supervisor template used by src/setup_release_aligned_registration_h14618.py and other prepare_* scripts, enumerating src/*.py x experiment case names; accepted ONLY on exact SHA256 match with the registered pin. No pin changed, no content guessed into place.",
+ "restored_sha256": {
+  "/etc/supervisor/conf.d/oilpalm_h3484_goal_connected.conf": "9e2b319b3588f5e259ff4816c4533c5896136da0b2bad4d809a8939b1d82ca06",
+  "/etc/supervisor/conf.d/oilpalm_h3520_multiscene.conf": "1555322858421d84989e51b1f66df3d00c92a4032b8c86ef84c6fbcca22df3bf",
+  "/etc/supervisor/conf.d/oilpalm_h3540_first_observed.conf": "94b8f19e0979f01e550d1666ad4c6afbf6bc0b29b8405f4e93b1172e65e2cd65",
+  "/etc/supervisor/conf.d/oilpalm_h3600_terminal.conf": "b856f747ab34902a5229648223a83fb5c1256c6d5bc2f748cd27e5476a72e68a",
+  "/etc/supervisor/conf.d/oilpalm_h3601_observer.conf": "daea95dd6efb6a1b4105c189c89d938c5168c6525e0613b0a3d5e312d1e35253",
+  "/etc/supervisor/conf.d/oilpalm_h3670_final_continuation.conf": "eee20453a37d201280a79379c3f7479e149f86c1db898781211d367e3055ecba",
+  "/etc/supervisor/conf.d/oilpalm_h3660_junction_normal.conf": "5d995a1cc800dcc6918f784eb3cf8a217f99b6f044ba808d3edb72fbcd7dddf7",
+  "/etc/supervisor/conf.d/oilpalm_h3661_junction_observer.conf": "a14102b9310d7daee74e0eb563d79336f7022c3ce266433217b5456d576ba59f",
+  "/etc/supervisor/conf.d/oilpalm_h3662_junction_audits.conf": "1695eb70ced2b7e39adb450b39058bd0cc51a8090b6ac9936e8eb7bbf0e5412f",
+  "/etc/supervisor/conf.d/oilpalm_h3710_settle_normal.conf": "f5e8a45a5fa71fcda49aa70cfbb18e416f493da8208a61291b45ba47fb01243d",
+  "/etc/supervisor/conf.d/oilpalm_h3711_settle_observer.conf": "811a7bf02d69fb3f985d6a70f7cdba45c0a7d199de9d4c13d50fba311a936872",
+  "/etc/supervisor/conf.d/oilpalm_h3712_settle_audits.conf": "1afe967d477f78488c597e646c31dedf18f2a904672d1338e0f129f168dc599c",
+  "/etc/supervisor/conf.d/oilpalm_h3720_final_continuation.conf": "f3b624602ccbd74178de1ca067394d4189c273b3079a0ad092423cbbb729c5a7",
+  "/etc/supervisor/conf.d/oilpalm_h3750_ACK_normal.conf": "ee8b8711914eb1f5b96f88c864c75b4c168f525eb64ef95620cfa791e374bddf",
+  "/etc/supervisor/conf.d/oilpalm_h3751_ACK_observer.conf": "25a0484a2ad473c2ec5a9db0d5ca3f380f487471adce04bc6eb7bbfac1a501dd",
+  "/etc/supervisor/conf.d/oilpalm_h3752_ACK_audits.conf": "90a01b9e07eb500d49cc12f1d62c0c523240f1ff8f37fcaa6cd885211c286b00",
+  "/etc/supervisor/conf.d/oilpalm_h3760_final_continuation.conf": "ec9183be9d04889e626a965f99a5395db83b59c43c213e11bbd9603433cce949",
+  "/etc/supervisor/conf.d/oilpalm_h8440_live_reference_a.conf": "9eb031b02e7af0d8efc6aa0818773980c9f38a4ec6f2ef36c315ef5a3776c6f1",
+  "/etc/supervisor/conf.d/oilpalm_h14640_release_aligned_exit.conf": "3d93c5026ae41752ced826fdfaed9e2ecbc191b62bed842c0db1db33a2ae4d00",
+  "/etc/supervisor/conf.d/oilpalm_h15740_partial_wrist_proposals.conf": "d541bb73fb8ebe0bdc79bf12c6a0a1edd7742455be9fcb4e669e063b2fd90e05",
+  "/etc/supervisor/conf.d/oilpalm_h29240_normal_actual_cue.conf": "6b01b815b8470606fa572134ffe922efaa150a1c6a3cd1782ca9d5740a020b75"
+ },
+ "all_match": true,
+ "supervisor_not_reloaded": true
+}

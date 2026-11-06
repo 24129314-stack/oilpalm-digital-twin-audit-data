@@ -1,0 +1,61 @@
+{
+ "utc": "2026-11-06T02:31:40.485502+00:00",
+ "case": "H4179311_T3_BL5E2_h4178_unseen_78302_S79301",
+ "experiment": "T3",
+ "judgement_mode": "landing",
+ "safety_failure_count": 47,
+ "first_safety_failures": [
+  {
+   "frame": 497,
+   "gate": "nonBlade_below_2mm",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0018845961427918778,
+   "boundary": "post"
+  },
+  {
+   "frame": 498,
+   "gate": "nonBlade_below_2mm",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0017944046688276594,
+   "boundary": "post"
+  },
+  {
+   "frame": 499,
+   "gate": "nonBlade_below_2mm",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0015144201119813155,
+   "boundary": "post"
+  },
+  {
+   "frame": 500,
+   "gate": "nonBlade_below_2mm",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0013744914915920503,
+   "boundary": "post"
+  },
+  {
+   "frame": 501,
+   "gate": "nonBlade_below_2mm",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0010626058774012709,
+   "boundary": "post"
+  }
+ ],
+ "furthest_stage": "stalk1_exit",
+ "action": "reported; queue continues"
+}

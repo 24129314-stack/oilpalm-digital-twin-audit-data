@@ -1,0 +1,49 @@
+{
+ "utc": "2026-11-04T05:04:18.142375+00:00",
+ "case": "H4178301_E3A_BL1_TRANSLATION_Y_POS",
+ "experiment": "exp3a",
+ "group": "E3A_BL1",
+ "judgement_mode": "landing",
+ "safety_failure_count": 14194,
+ "first_safety_failures": [
+  {
+   "frame": 0,
+   "gate": "CUT_without_original_physical_gates_or_identity",
+   "object_id": null
+  },
+  {
+   "frame": 1,
+   "gate": "CUT_without_original_physical_gates_or_identity",
+   "object_id": [
+    "petiole",
+    2
+   ]
+  },
+  {
+   "frame": 2,
+   "gate": "CUT_without_original_physical_gates_or_identity",
+   "object_id": [
+    "petiole",
+    2
+   ]
+  },
+  {
+   "frame": 3,
+   "gate": "CUT_without_original_physical_gates_or_identity",
+   "object_id": [
+    "petiole",
+    2
+   ]
+  },
+  {
+   "frame": 4,
+   "gate": "CUT_without_original_physical_gates_or_identity",
+   "object_id": [
+    "petiole",
+    2
+   ]
+  }
+ ],
+ "furthest_stage": "petiole2_CUT",
+ "action": "reported; queue continues per preregistered stop rule"
+}

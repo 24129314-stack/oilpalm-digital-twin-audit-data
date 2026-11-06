@@ -1,0 +1,190 @@
+{
+ "utc": "2026-10-30T09:26:43.451231+00:00",
+ "version": "H4177",
+ "purpose": "Stage A2 perturbation split, frozen BEFORE any H4177 development run.",
+ "development_set": {
+  "existing": [
+   {
+    "level": "JOINT_0_NEG",
+    "selection_path": "/workspace/oilpalm_resume_20261013/formal_confirmation/H4176_EXECUTION_V1/joint_initial_screen_v2/JOINT_0_NEG_SELECTION.json",
+    "selection_sha256": "74d55139dd29020e066d84e54fcd84dcab33842bd99f030853a0800d7ce22756",
+    "h4176_result": "0/3"
+   },
+   {
+    "level": "JOINT_2_POS",
+    "selection_path": "/workspace/oilpalm_resume_20261013/formal_confirmation/H4176_EXECUTION_V1/joint_initial_screen_v2/JOINT_2_POS_SELECTION.json",
+    "selection_sha256": "b30a2e286e99976cf0eec74aa5b08e0d7738792ac72a3b29bd985a71ce2f4b86",
+    "h4176_result": "0/3"
+   },
+   {
+    "level": "JOINT_3_POS",
+    "selection_path": "/workspace/oilpalm_resume_20261013/formal_confirmation/H4176_EXECUTION_V1/joint_initial_screen_v2/JOINT_3_POS_SELECTION.json",
+    "selection_sha256": "bf076b56efd8fa8339042931470866ad5829b67a707942a34cfb99ad781a2c44",
+    "h4176_result": "0/3"
+   }
+  ],
+  "development_only_new_q": [
+   {
+    "level": "DEVONLY_JOINT_0_NEG_005MRAD",
+    "joint_index": 0,
+    "delta_rad": -0.005,
+    "screen_required": [
+     "all144>=2mm",
+     "original_limits",
+     "frozen_complete_path<=240"
+    ]
+   },
+   {
+    "level": "DEVONLY_JOINT_0_NEG_015MRAD",
+    "joint_index": 0,
+    "delta_rad": -0.015,
+    "screen_required": [
+     "all144>=2mm",
+     "original_limits",
+     "frozen_complete_path<=240"
+    ]
+   },
+   {
+    "level": "DEVONLY_JOINT_2_POS_005MRAD",
+    "joint_index": 2,
+    "delta_rad": 0.005,
+    "screen_required": [
+     "all144>=2mm",
+     "original_limits",
+     "frozen_complete_path<=240"
+    ]
+   },
+   {
+    "level": "DEVONLY_JOINT_2_POS_015MRAD",
+    "joint_index": 2,
+    "delta_rad": 0.015,
+    "screen_required": [
+     "all144>=2mm",
+     "original_limits",
+     "frozen_complete_path<=240"
+    ]
+   },
+   {
+    "level": "DEVONLY_JOINT_3_POS_005MRAD",
+    "joint_index": 3,
+    "delta_rad": 0.005,
+    "screen_required": [
+     "all144>=2mm",
+     "original_limits",
+     "frozen_complete_path<=240"
+    ]
+   },
+   {
+    "level": "DEVONLY_JOINT_3_POS_015MRAD",
+    "joint_index": 3,
+    "delta_rad": 0.015,
+    "screen_required": [
+     "all144>=2mm",
+     "original_limits",
+     "frozen_complete_path<=240"
+    ]
+   }
+  ],
+  "nominal_regression": "scene11 unperturbed H1216 selection, 3 cold runs required after fixes"
+ },
+ "holdout_set": {
+  "rule": "NOT run before stage B; only static screening with the frozen stage-B version is allowed before B preregistration.",
+  "joint": [
+   {
+    "level": "JOINT_0_POS",
+    "h4176_screen": [
+     "frozen_complete_initial_path_not_qualified"
+    ],
+    "status": "RESCREEN_WITH_FROZEN_STAGE_B_PLANNER"
+   },
+   {
+    "level": "JOINT_1_NEG",
+    "h4176_screen": [
+     "initial_all144_below_2mm"
+    ],
+    "status": "NOT_ELIGIBLE_PHYSICAL"
+   },
+   {
+    "level": "JOINT_1_POS",
+    "h4176_screen": [
+     "frozen_complete_initial_path_not_qualified"
+    ],
+    "status": "RESCREEN_WITH_FROZEN_STAGE_B_PLANNER"
+   },
+   {
+    "level": "JOINT_2_NEG",
+    "h4176_screen": [
+     "initial_all144_below_2mm"
+    ],
+    "status": "NOT_ELIGIBLE_PHYSICAL"
+   },
+   {
+    "level": "JOINT_3_NEG",
+    "h4176_screen": [
+     "outside_original_joint_limits"
+    ],
+    "status": "NOT_ELIGIBLE_PHYSICAL"
+   }
+  ],
+  "base_translation": [
+   {
+    "level": "TRANSLATION_X_NEG",
+    "axis": "X",
+    "delta_m": -0.01
+   },
+   {
+    "level": "TRANSLATION_X_POS",
+    "axis": "X",
+    "delta_m": 0.01
+   },
+   {
+    "level": "TRANSLATION_Y_NEG",
+    "axis": "Y",
+    "delta_m": -0.01
+   },
+   {
+    "level": "TRANSLATION_Y_POS",
+    "axis": "Y",
+    "delta_m": 0.01
+   },
+   {
+    "level": "TRANSLATION_Z_NEG",
+    "axis": "Z",
+    "delta_m": -0.01
+   },
+   {
+    "level": "TRANSLATION_Z_POS",
+    "axis": "Z",
+    "delta_m": 0.01
+   }
+  ],
+  "base_yaw": [
+   {
+    "level": "YAW_NEG",
+    "delta_deg": -2.0,
+    "axis": "world_z",
+    "quaternion_order": "xyzw"
+   },
+   {
+    "level": "YAW_POS",
+    "delta_deg": 2.0,
+    "axis": "world_z",
+    "quaternion_order": "xyzw"
+   }
+  ],
+  "contact_degradation": [
+   {
+    "level": "CONTACT_DROP3_FORCE08",
+    "drop_every_n_frames": 3,
+    "force_scale": 0.8,
+    "position_offset_m": 0.0
+   }
+  ]
+ },
+ "stage_B_tier_rule": "Tiers with NOT_ELIGIBLE_PHYSICAL status (fail 2mm/limits under unchanged rules) are reported NOT_ELIGIBLE/NOT_STARTED and excluded from the 75% tier denominator; disclosed in every report.",
+ "source_screen": {
+  "path": "/workspace/oilpalm_resume_20261013/formal_confirmation/H4176_EXECUTION_V1/joint_initial_screen_v2/RESULTS.json",
+  "sha256": "476ca0f35e094de2ab5e9e1bb33be3ae5cbc96ab9747c0a60220256f592787e9"
+ },
+ "no_threshold_gate_exemption_or_landing_change": true
+}

@@ -1,0 +1,62 @@
+{
+ "utc": "2026-11-04T09:32:33.153289+00:00",
+ "label": "探索性",
+ "kind": "BL5E_COLLISION_MODEL_CHECK",
+ "planner_threshold_m": 0.003,
+ "judge_threshold_m": 0.002,
+ "decision_check": {
+  "H4178_PROBE_FRAME0.json": {
+   "configs": 1000,
+   "uniform": 600,
+   "near_boundary": 400,
+   "pairs_evaluated": 144000,
+   "planner_safe_judge_violation": 0,
+   "pruned_vs_exact_disagreement_at_3mm": 0,
+   "judge_violation_configs": 136,
+   "planner_safe_configs": 853,
+   "min_exact_gap_of_planner_safe_configs_m": 0.0036793000205245507,
+   "max_bound_minus_exact_m": 0.0
+  },
+  "H4178_PROBE_FRAME6.json": {
+   "configs": 1000,
+   "uniform": 600,
+   "near_boundary": 400,
+   "pairs_evaluated": 144000,
+   "planner_safe_judge_violation": 0,
+   "pruned_vs_exact_disagreement_at_3mm": 0,
+   "judge_violation_configs": 130,
+   "planner_safe_configs": 848,
+   "min_exact_gap_of_planner_safe_configs_m": 0.0031769399049497438,
+   "max_bound_minus_exact_m": 0.0
+  }
+ },
+ "kinematic_prediction_check": {
+  "H4178201_E2_BL5_R1": {
+   "windows": 1,
+   "compared_pairs_below_50mm": 74,
+   "max_abs_prediction_error_m": 0.022013999301762968,
+   "predicted_ge_3mm_recorded_lt_2mm_nonblade": 0
+  },
+  "H4178201_E2_BL5_R2": {
+   "windows": 1,
+   "compared_pairs_below_50mm": 74,
+   "max_abs_prediction_error_m": 0.022013984323330904,
+   "predicted_ge_3mm_recorded_lt_2mm_nonblade": 0
+  },
+  "H4178201_E2_BL5_R3": {
+   "windows": 1,
+   "compared_pairs_below_50mm": 74,
+   "max_abs_prediction_error_m": 0.022013988510430446,
+   "predicted_ge_3mm_recorded_lt_2mm_nonblade": 0
+  },
+  "H4178101_E1_CONTROL_R1": {
+   "windows": 14,
+   "compared_pairs_below_50mm": 1133,
+   "max_abs_prediction_error_m": 0.02324166159715843,
+   "predicted_ge_3mm_recorded_lt_2mm_nonblade": 0
+  }
+ },
+ "passed": true,
+ "script_sha256": "6534c2e804c31d580caa56d0ed0a8e0c63c230e9bff4305e5f5b873c418a30d0",
+ "planner_collision_model_sha256": "eb3b9e7f37cb23a8e0778c1fa7a0d0bcb55540b5074bfa919cf5dfebf579a99d"
+}

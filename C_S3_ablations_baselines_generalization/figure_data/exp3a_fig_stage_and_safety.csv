@@ -1,0 +1,51 @@
+case,group,method,switch_off,level,rep,furthest_stage,stop_reason,stop_state,frames,dangerous_executed_CUT,dangerous_requested_CUT,nonblade_lt2mm_boundaries_strict,nonblade_lt2mm_boundaries_landing,wrong_releases,unsafe_CUT,solver_peak_landing_force_n,landing_cycles,landing_max_penetration_mm,wall_min,controller_wall_s
+H4178301_E3A_BL1_JOINT_0_POS,E3A_BL1,BL1,,JOINT_0_POS,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,427,427,394,394,0,427,,0,,4.6,1.6398735838010907
+H4178301_E3A_BL2_JOINT_0_POS,E3A_BL2,BL2,,JOINT_0_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,32.220581124769524
+H4178301_E3A_BL3_JOINT_0_POS,E3A_BL3,BL3,,JOINT_0_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.52794644376263
+H4178301_E3A_BL4_JOINT_0_POS,E3A_BL4,BL4,,JOINT_0_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.5,46.148868708871305
+H4178301_E3A_BL5_JOINT_0_POS,E3A_BL5,BL5,,JOINT_0_POS,,petiole2_exit,bl5_no_collision_free_plan,,60,0,0,0,0,0,0,,0,,0.9,19.906764677725732
+H4178301_E3A_BL1_JOINT_1_POS,E3A_BL1,BL1,,JOINT_1_POS,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,427,427,394,394,0,427,,0,,4.5,1.6334491891320795
+H4178301_E3A_BL2_JOINT_1_POS,E3A_BL2,BL2,,JOINT_1_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.3,31.390375047689304
+H4178301_E3A_BL3_JOINT_1_POS,E3A_BL3,BL3,,JOINT_1_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.3,31.474695191020146
+H4178301_E3A_BL4_JOINT_1_POS,E3A_BL4,BL4,,JOINT_1_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.5,46.23644861485809
+H4178301_E3A_BL5_JOINT_1_POS,E3A_BL5,BL5,,JOINT_1_POS,,petiole2_exit,bl5_no_collision_free_plan,,59,0,0,0,0,0,0,,0,,0.9,19.56193422526121
+H4178301_E3A_BL1_TRANSLATION_X_NEG,E3A_BL1,BL1,,TRANSLATION_X_NEG,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,111,111,396,396,0,111,,0,,4.6,1.6668382126372308
+H4178301_E3A_BL2_TRANSLATION_X_NEG,E3A_BL2,BL2,,TRANSLATION_X_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.580446461681277
+H4178301_E3A_BL3_TRANSLATION_X_NEG,E3A_BL3,BL3,,TRANSLATION_X_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,32.211979617830366
+H4178301_E3A_BL4_TRANSLATION_X_NEG,E3A_BL4,BL4,,TRANSLATION_X_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.5,45.942252670181915
+H4178301_E3A_BL5_TRANSLATION_X_NEG,E3A_BL5,BL5,,TRANSLATION_X_NEG,,petiole2_exit,bl5_no_collision_free_plan,,59,0,0,0,0,0,0,,0,,1.1,19.665404252475128
+H4178301_E3A_BL1_TRANSLATION_X_POS,E3A_BL1,BL1,,TRANSLATION_X_POS,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,476,476,393,393,0,476,,0,,4.5,1.6529210405424237
+H4178301_E3A_BL2_TRANSLATION_X_POS,E3A_BL2,BL2,,TRANSLATION_X_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.62730613327585
+H4178301_E3A_BL3_TRANSLATION_X_POS,E3A_BL3,BL3,,TRANSLATION_X_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.565395960584283
+H4178301_E3A_BL4_TRANSLATION_X_POS,E3A_BL4,BL4,,TRANSLATION_X_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,5.0,58.216129997279495
+H4178301_E3A_BL5_TRANSLATION_X_POS,E3A_BL5,BL5,,TRANSLATION_X_POS,,petiole2_exit,bl5_no_collision_free_plan,,59,0,0,0,0,0,0,,0,,0.9,19.76524483715184
+H4178301_E3A_BL1_TRANSLATION_Y_NEG,E3A_BL1,BL1,,TRANSLATION_Y_NEG,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,108,108,395,395,0,108,,0,,4.6,1.652314492734149
+H4178301_E3A_BL2_TRANSLATION_Y_NEG,E3A_BL2,BL2,,TRANSLATION_Y_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.3,31.64830101071857
+H4178301_E3A_BL3_TRANSLATION_Y_NEG,E3A_BL3,BL3,,TRANSLATION_Y_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.2,30.896497460780665
+H4178301_E3A_BL4_TRANSLATION_Y_NEG,E3A_BL4,BL4,,TRANSLATION_Y_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,5.0,57.52012983034365
+H4178301_E3A_BL5_TRANSLATION_Y_NEG,E3A_BL5,BL5,,TRANSLATION_Y_NEG,,petiole2_exit,bl5_no_collision_free_plan,,61,0,0,0,0,0,0,,0,,0.9,19.833867576671764
+H4178301_E3A_BL1_TRANSLATION_Y_POS,E3A_BL1,BL1,,TRANSLATION_Y_POS,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,477,477,394,394,0,477,,0,,4.5,1.6391477384604514
+H4178301_E3A_BL2_TRANSLATION_Y_POS,E3A_BL2,BL2,,TRANSLATION_Y_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.3,31.629427827661857
+H4178301_E3A_BL3_TRANSLATION_Y_POS,E3A_BL3,BL3,,TRANSLATION_Y_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,32.1081965607591
+H4178301_E3A_BL4_TRANSLATION_Y_POS,E3A_BL4,BL4,,TRANSLATION_Y_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.5,45.91414505406283
+H4178301_E3A_BL5_TRANSLATION_Y_POS,E3A_BL5,BL5,,TRANSLATION_Y_POS,,petiole2_exit,bl5_no_collision_free_plan,,57,0,0,0,0,0,0,,0,,0.9,19.494204771937802
+H4178301_E3A_BL1_TRANSLATION_Z_NEG,E3A_BL1,BL1,,TRANSLATION_Z_NEG,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,480,480,394,394,0,480,,0,,4.5,1.651889897417277
+H4178301_E3A_BL2_TRANSLATION_Z_NEG,E3A_BL2,BL2,,TRANSLATION_Z_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.3,31.270058953668922
+H4178301_E3A_BL3_TRANSLATION_Z_NEG,E3A_BL3,BL3,,TRANSLATION_Z_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.616855822503567
+H4178301_E3A_BL4_TRANSLATION_Z_NEG,E3A_BL4,BL4,,TRANSLATION_Z_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.5,46.58798317029141
+H4178301_E3A_BL5_TRANSLATION_Z_NEG,E3A_BL5,BL5,,TRANSLATION_Z_NEG,,petiole2_exit,bl5_no_collision_free_plan,,59,0,0,0,0,0,0,,0,,0.9,19.68123701796867
+H4178301_E3A_BL1_TRANSLATION_Z_POS,E3A_BL1,BL1,,TRANSLATION_Z_POS,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,107,107,395,395,0,107,,0,,4.6,1.6533804659266025
+H4178301_E3A_BL2_TRANSLATION_Z_POS,E3A_BL2,BL2,,TRANSLATION_Z_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.108954076189548
+H4178301_E3A_BL3_TRANSLATION_Z_POS,E3A_BL3,BL3,,TRANSLATION_Z_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.3,31.64638747344725
+H4178301_E3A_BL4_TRANSLATION_Z_POS,E3A_BL4,BL4,,TRANSLATION_Z_POS,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.5,46.01715166331269
+H4178301_E3A_BL5_TRANSLATION_Z_POS,E3A_BL5,BL5,,TRANSLATION_Z_POS,,petiole2_exit,bl5_no_collision_free_plan,,59,0,0,0,0,0,0,,0,,1.1,20.024117848835886
+H4178301_E3A_BL1_YAW_NEG,E3A_BL1,BL1,,YAW_NEG,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,482,482,374,374,0,482,,0,,4.7,1.6522313540335745
+H4178301_E3A_BL2_YAW_NEG,E3A_BL2,BL2,,YAW_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.2,31.21313433838077
+H4178301_E3A_BL3_YAW_NEG,E3A_BL3,BL3,,YAW_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.775145791703835
+H4178301_E3A_BL4_YAW_NEG,E3A_BL4,BL4,,YAW_NEG,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,5.0,58.3471443450544
+H4178301_E3A_BL5_YAW_NEG,E3A_BL5,BL5,,YAW_NEG,,petiole2_exit,bl5_no_collision_free_plan,,60,0,0,0,0,0,0,,0,,1.1,20.83076104777865
+H4178301_E3A_BL1_CONTACT_DROP3_FORCE08,E3A_BL1,BL1,,CONTACT_DROP3_FORCE08,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,427,427,394,394,0,427,,0,,4.5,1.6303408045787364
+H4178301_E3A_BL2_CONTACT_DROP3_FORCE08,E3A_BL2,BL2,,CONTACT_DROP3_FORCE08,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.94259858573787
+H4178301_E3A_BL3_CONTACT_DROP3_FORCE08,E3A_BL3,BL3,,CONTACT_DROP3_FORCE08,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.3,31.683140337932855
+H4178301_E3A_BL4_CONTACT_DROP3_FORCE08,E3A_BL4,BL4,,CONTACT_DROP3_FORCE08,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.0,76.43066857475787
+H4178301_E3A_BL5_CONTACT_DROP3_FORCE08,E3A_BL5,BL5,,CONTACT_DROP3_FORCE08,,petiole2_exit,bl5_no_collision_free_plan,,59,0,0,0,0,0,0,,0,,1.0,19.183124988572672

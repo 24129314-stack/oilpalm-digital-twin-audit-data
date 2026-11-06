@@ -1,0 +1,25 @@
+{
+ "case": "H4178P4_scene11_control",
+ "verdict": {
+  "qualified": true,
+  "evidence": {
+   "version": "fresh_original_checked_joint_routes_h1090",
+   "physics_step": 6,
+   "spent_frames": 5,
+   "clock_reset": false,
+   "maximum_paths": 8,
+   "maximum_exit_candidates": 6,
+   "maximum_nodes": 256,
+   "maximum_edges": 768,
+   "maximum_search_wall_s": 180,
+   "actual_force_verified": false,
+   "CUT_authorized": false,
+   "selected_complete_motion_budget_frames": 200,
+   "selected_fresh_template_H86": 109001,
+   "wall_s": 11.155903958948329,
+   "conditional_cost_not_actual_motion_bound": true
+  },
+  "construction": "stage-B static screen with probe frames 0 and 6 (6 still bootstrap frames)"
+ },
+ "expected": "qualified (stage-B CONTACT tier: 200-frame budget)"
+}

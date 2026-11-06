@@ -1,0 +1,4 @@
+*.csv text eol=lf
+*.json -text
+*.sha256 -text
+*.py -text

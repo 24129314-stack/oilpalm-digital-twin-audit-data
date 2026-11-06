@@ -1,0 +1,9 @@
+group,n,attempted,strict,landing,safety_fail_landing,safety_fail_strict,not_started,wilson_strict,wilson_landing
+E1_CONTROL,3,3,0,3,0,3,0,"[0.0, 0.561]","[0.439, 1.0]"
+E1_AB1_landing,3,3,0,0,0,0,0,"[0.0, 0.561]","[0.0, 0.561]"
+E1_AB2_stalk_brake,3,3,0,0,0,3,0,"[0.0, 0.561]","[0.0, 0.561]"
+E1_AB3_e3g,3,3,0,2,0,3,0,"[0.0, 0.561]","[0.208, 0.939]"
+E1_AB4_zero_manifold,3,3,0,0,0,3,0,"[0.0, 0.561]","[0.0, 0.561]"
+E1_AB5_temporal,3,3,0,3,0,3,0,"[0.0, 0.561]","[0.439, 1.0]"
+E1_AB7_live_cold,3,3,0,3,0,3,0,"[0.0, 0.561]","[0.439, 1.0]"
+E1_AB6_init_screening,3,3,0,0,0,0,0,"[0.0, 0.561]","[0.0, 0.561]"

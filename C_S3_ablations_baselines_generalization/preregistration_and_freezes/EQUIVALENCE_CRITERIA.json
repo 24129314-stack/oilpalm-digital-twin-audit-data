@@ -1,0 +1,17 @@
+{
+ "id": "H4178_STEP0_1_EQUIVALENCE_CRITERIA",
+ "written_before_proof_run": true,
+ "claim": "With every H4178 ablation switch ON (OILPALM_H4178_ABLATION empty) the H4178 launch environment reproduces the frozen stage-B version on scene 11, standard initial state, frame by frame.",
+ "code_level": [
+  "frozen stage-B source tree verified file by file against STAGE_B_SOURCE_FREEZE.json (6b5fc107...1f34) before launch; zero bytes changed",
+  "hooks/sitecustomize.py imports nothing and patches nothing when OILPALM_H4178_ABLATION is empty; the run must contain NO 'installed'/'patched'/'redirected' event in H4178_HOOK_LOG.jsonl"
+ ],
+ "reference_runs": ["H4177209_STAGE_B_B1_FULL_01","H4177210_STAGE_B_B1_FULL_02","H4177211_STAGE_B_B1_FULL_03","H4177212_STAGE_B_B1_NOMINAL_FULL_01","H4177213_STAGE_B_B1_NOMINAL_FULL_02","H4177214_STAGE_B_B1_NOMINAL_FULL_03","H4177215_STAGE_B_B1_NOMINAL_FULL_04","H4177216_STAGE_B_B1_NOMINAL_FULL_05","H4177217_STAGE_B_B1_NOMINAL_FULL_06","H4177218_STAGE_B_B1_NOMINAL_FULL_07","H4177219_STAGE_B_B1_NOMINAL_FULL_08","H4177220_STAGE_B_B1_NOMINAL_FULL_09","H4177221_STAGE_B_B1_NOMINAL_FULL_10"],
+ "known_nondeterminism": "Frozen runs are NOT bit-identical: e.g. H4177212 vs H4177213 (same event pattern) differ by up to 2.4e-7 rad in joint_actual from frame 9 (GPU float32 reduction order). 'Identical' is therefore defined relative to the frozen run-to-run envelope.",
+ "discrete_criteria": "(a) integrated frame count, CUT pre-steps, native release steps and exit steps of P2/P0/stalk1 equal those of at least one reference run (the 'matching references'); (b) the per-frame handoff state sequence equals that of a matching reference; (c) H4176 judge verdict passed with safety passed.",
+ "continuous_criteria": "For every frame, compare with each matching reference: max |delta joint_actual| (rad), max |delta effective_surface_gap| over the 144 recorded pairs (m), max |delta body pose| over the 19 recorded body poses (position m, quaternion components with sign alignment). PASS if, for at least one matching reference, every statistic <= the envelope E = maximum of the same statistic over all pairs of reference runs sharing that event pattern (computed by envelope_reference.py from the frozen archives).",
+ "if_pattern_has_no_reference_pair": "If the matching pattern has only one reference run, E is taken from the largest-population pattern.",
+ "failure_action": "If the proof fails, the switches are NOT frozen; the failure is reported and investigated before any H4178 experimental run.",
+ "proof_case": "H4178000_PROOF_ALLON_FULL",
+ "proof_seed": 78000
+}

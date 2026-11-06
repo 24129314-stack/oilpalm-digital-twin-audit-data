@@ -1,0 +1,8 @@
+rejection_reason,count_over_all_BL5E2_planning_calls
+no_blade_contact_window,6982
+ik_unreachable_cut,6262
+alignment_dynamic_axis_blade_scope,1676
+cut_pose_collision,266
+tip_distance_gate,89
+blade_face_not_facing_approach,75
+passed_unrefined,10

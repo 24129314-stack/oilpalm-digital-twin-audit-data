@@ -1,0 +1,61 @@
+{
+ "utc": "2026-11-05T22:37:14.077618+00:00",
+ "case": "H4179211_T2_BL5E2_TRANSLATION_Z_POS_S78201",
+ "experiment": "T2",
+ "judgement_mode": "landing",
+ "safety_failure_count": 25,
+ "first_safety_failures": [
+  {
+   "frame": 408,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0019977741624896406,
+   "boundary": "post"
+  },
+  {
+   "frame": 409,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.001988004999074755,
+   "boundary": "post"
+  },
+  {
+   "frame": 410,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.001982849238212181,
+   "boundary": "post"
+  },
+  {
+   "frame": 411,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0019799782478285566,
+   "boundary": "post"
+  },
+  {
+   "frame": 412,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0019772374758504213,
+   "boundary": "post"
+  }
+ ],
+ "furthest_stage": "petiole2_exit",
+ "action": "reported; queue continues"
+}

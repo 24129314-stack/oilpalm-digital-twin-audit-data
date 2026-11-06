@@ -1,0 +1,439 @@
+{
+ "utc": "2026-10-31T09:43:50.102968+00:00",
+ "version": "H4177_stage_B",
+ "scene": 11,
+ "stage_b_freeze_sha256": "6b5fc1071530fbb98a9a32e8b4073b3dbacbcb09dd3b247fd02cac0ead2b1f34",
+ "holdout_screen_results_sha256": "8bd9ecda61d6da03e88d30ebb90ef3ae46f7438ab8cf213136a3436c1e1021de",
+ "split_freeze_sha256": "bd4dde0281926bbaa17c9d99fc9c377d14fdfad2022ba3d07bc0e543f16899a6",
+ "units": [
+  {
+   "case": "H4177201_STAGE_B_B1_HOLD_01",
+   "group": "B1_HOLD",
+   "role": "cold_hold",
+   "mode": "hold",
+   "level": "NOMINAL",
+   "seed": 77201,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177202_STAGE_B_B1_HOLD_02",
+   "group": "B1_HOLD",
+   "role": "cold_hold",
+   "mode": "hold",
+   "level": "NOMINAL",
+   "seed": 77202,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177203_STAGE_B_B1_HOLD_03",
+   "group": "B1_HOLD",
+   "role": "cold_hold",
+   "mode": "hold",
+   "level": "NOMINAL",
+   "seed": 77203,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177204_STAGE_B_B1_HOLD_04",
+   "group": "B1_HOLD",
+   "role": "cold_hold",
+   "mode": "hold",
+   "level": "NOMINAL",
+   "seed": 77204,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177205_STAGE_B_B1_HOLD_05",
+   "group": "B1_HOLD",
+   "role": "cold_hold",
+   "mode": "hold",
+   "level": "NOMINAL",
+   "seed": 77205,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177206_STAGE_B_B1_HANDOFF_01",
+   "group": "B1_HANDOFF",
+   "role": "first_petiole_handoff",
+   "mode": "handoff",
+   "level": "NOMINAL",
+   "seed": 77206,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177207_STAGE_B_B1_HANDOFF_02",
+   "group": "B1_HANDOFF",
+   "role": "first_petiole_handoff",
+   "mode": "handoff",
+   "level": "NOMINAL",
+   "seed": 77207,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177208_STAGE_B_B1_HANDOFF_03",
+   "group": "B1_HANDOFF",
+   "role": "first_petiole_handoff",
+   "mode": "handoff",
+   "level": "NOMINAL",
+   "seed": 77208,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177209_STAGE_B_B1_FULL_01",
+   "group": "B1_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77209,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177210_STAGE_B_B1_FULL_02",
+   "group": "B1_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77210,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177211_STAGE_B_B1_FULL_03",
+   "group": "B1_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77211,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177212_STAGE_B_B1_NOMINAL_FULL_01",
+   "group": "B1_NOMINAL_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77212,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177213_STAGE_B_B1_NOMINAL_FULL_02",
+   "group": "B1_NOMINAL_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77213,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177214_STAGE_B_B1_NOMINAL_FULL_03",
+   "group": "B1_NOMINAL_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77214,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177215_STAGE_B_B1_NOMINAL_FULL_04",
+   "group": "B1_NOMINAL_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77215,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177216_STAGE_B_B1_NOMINAL_FULL_05",
+   "group": "B1_NOMINAL_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77216,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177217_STAGE_B_B1_NOMINAL_FULL_06",
+   "group": "B1_NOMINAL_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77217,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177218_STAGE_B_B1_NOMINAL_FULL_07",
+   "group": "B1_NOMINAL_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77218,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177219_STAGE_B_B1_NOMINAL_FULL_08",
+   "group": "B1_NOMINAL_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77219,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177220_STAGE_B_B1_NOMINAL_FULL_09",
+   "group": "B1_NOMINAL_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77220,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177221_STAGE_B_B1_NOMINAL_FULL_10",
+   "group": "B1_NOMINAL_FULL",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "NOMINAL",
+   "seed": 77221,
+   "extra_environment": {}
+  },
+  {
+   "case": "H4177222_STAGE_B_B2_CONTACT_DROP3_FORCE08_01",
+   "group": "B2_CONTACT_DROP3_FORCE08",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "CONTACT_DROP3_FORCE08",
+   "seed": 77222,
+   "extra_environment": {
+    "OILPALM_H4177_CONTACT_DEGRADATION": "drop3_force08"
+   }
+  },
+  {
+   "case": "H4177223_STAGE_B_B2_CONTACT_DROP3_FORCE08_02",
+   "group": "B2_CONTACT_DROP3_FORCE08",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "CONTACT_DROP3_FORCE08",
+   "seed": 77223,
+   "extra_environment": {
+    "OILPALM_H4177_CONTACT_DEGRADATION": "drop3_force08"
+   }
+  },
+  {
+   "case": "H4177224_STAGE_B_B2_CONTACT_DROP3_FORCE08_03",
+   "group": "B2_CONTACT_DROP3_FORCE08",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "CONTACT_DROP3_FORCE08",
+   "seed": 77224,
+   "extra_environment": {
+    "OILPALM_H4177_CONTACT_DEGRADATION": "drop3_force08"
+   }
+  },
+  {
+   "case": "H4177225_STAGE_B_B2_CONTACT_DROP3_FORCE08_01R",
+   "group": "B2_CONTACT_DROP3_FORCE08",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "CONTACT_DROP3_FORCE08",
+   "seed": 77222,
+   "extra_environment": {
+    "OILPALM_H4177_CONTACT_DEGRADATION": "drop3_force08"
+   },
+   "replaces_not_started": "H4177222_STAGE_B_B2_CONTACT_DROP3_FORCE08_01"
+  },
+  {
+   "case": "H4177226_STAGE_B_B2_CONTACT_DROP3_FORCE08_02R",
+   "group": "B2_CONTACT_DROP3_FORCE08",
+   "role": "full_harvest",
+   "mode": "full_harvest",
+   "level": "CONTACT_DROP3_FORCE08",
+   "seed": 77223,
+   "extra_environment": {
+    "OILPALM_H4177_CONTACT_DEGRADATION": "drop3_force08"
+   },
+   "replaces_not_started": "H4177223_STAGE_B_B2_CONTACT_DROP3_FORCE08_02"
+  }
+ ],
+ "holdout_tiers": [
+  {
+   "level": "JOINT_0_POS",
+   "eligible": false,
+   "exclusion_reasons": [
+    "frozen_complete_initial_path_not_qualified"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "JOINT_1_NEG",
+   "eligible": false,
+   "exclusion_reasons": [
+    "initial_all144_below_2mm"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "JOINT_1_POS",
+   "eligible": false,
+   "exclusion_reasons": [
+    "frozen_complete_initial_path_not_qualified"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "JOINT_2_NEG",
+   "eligible": false,
+   "exclusion_reasons": [
+    "initial_all144_below_2mm"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "JOINT_3_NEG",
+   "eligible": false,
+   "exclusion_reasons": [
+    "outside_original_joint_limits"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "TRANSLATION_X_NEG",
+   "eligible": false,
+   "exclusion_reasons": [
+    "frozen_complete_initial_path_not_qualified"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "TRANSLATION_X_POS",
+   "eligible": false,
+   "exclusion_reasons": [
+    "frozen_complete_initial_path_not_qualified"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "TRANSLATION_Y_NEG",
+   "eligible": false,
+   "exclusion_reasons": [
+    "frozen_complete_initial_path_not_qualified"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "TRANSLATION_Y_POS",
+   "eligible": false,
+   "exclusion_reasons": [
+    "frozen_complete_initial_path_not_qualified"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "TRANSLATION_Z_NEG",
+   "eligible": false,
+   "exclusion_reasons": [
+    "frozen_complete_initial_path_not_qualified"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "TRANSLATION_Z_POS",
+   "eligible": false,
+   "exclusion_reasons": [
+    "frozen_complete_initial_path_not_qualified"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "YAW_NEG",
+   "eligible": false,
+   "exclusion_reasons": [
+    "frozen_complete_initial_path_not_qualified"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "YAW_POS",
+   "eligible": false,
+   "exclusion_reasons": [
+    "initial_all144_below_2mm"
+   ],
+   "runs": 0,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  },
+  {
+   "level": "CONTACT_DROP3_FORCE08",
+   "eligible": true,
+   "exclusion_reasons": [],
+   "runs": 3,
+   "outcome_if_ineligible": "counted as tier NOT reaching >=2/3 (frozen B version cannot start it); runs NOT_STARTED"
+  }
+ ],
+ "criteria": {
+  "B1": {
+   "hold": "5/5 cold hold",
+   "handoff": "3/3 first handoff",
+   "full": ">=2/3 full harvest",
+   "nominal_full": ">=7/10 full harvest"
+  },
+  "B2": {
+   "rule": ">=75% of holdout tiers reach >=2/3 and no tier has a safety violation",
+   "denominator_primary": "all holdout tiers except those physically infeasible at the initial state (initial 144-pair <2mm or outside joint limits)",
+   "physically_infeasible_excluded": [
+    "JOINT_1_NEG",
+    "JOINT_2_NEG",
+    "JOINT_3_NEG",
+    "YAW_POS"
+   ],
+   "denominator_secondary_reported": "all 11 non-NOT_ELIGIBLE_PHYSICAL tiers of the split freeze"
+  },
+  "stage_C": "only if B1 and B2 both pass"
+ },
+ "predicted_B2_ceiling": "1/10 eligible -> B2 cannot pass",
+ "run_order": [
+  "B1_HOLD",
+  "B1_HANDOFF",
+  "B2_CONTACT_DROP3_FORCE08",
+  "B1_FULL",
+  "B1_NOMINAL_FULL"
+ ],
+ "rules": {
+  "started_counts": true,
+  "not_started_marked": true,
+  "no_rerun_overwrite": true,
+  "no_tuning_on_holdout": true,
+  "disk_min_free_mib": 1500,
+  "statistics_unit": "same-scene repeat; Wilson descriptive only",
+  "not_pooled_with_H4176_or_stage_A": true
+ },
+ "judge": "formal_confirmation/H4176_EXECUTION_V1 acceptance (unchanged) via H4177_DEVELOPMENT/dev_accept.py roles",
+ "J0_NEG_reclassification": "H4176 JOINT_0_NEG failures are controller policy failures (pre-CUT departure budget), not physics/asset",
+ "amendment": {
+  "id": "AMEND01",
+  "utc": "2026-11-01T08:06:41.273230+00:00",
+  "original_preregistration_sha256": "93aeec5bb3a4f44184b00f1b7717462da36c562b5483846b3fcaebae34849adb",
+  "change": "adds 2 replacement units (new ids, same seeds 77222/77223, same level/env) for H4177222/223 which were NOT_STARTED by pre-launch preflight refusal; nothing else changed",
+  "scripts_byte_identical": {
+   "stage_b_queue.py": "2dbbd6cb21a48a99f04047965cf54b94929e9360ba1c002710c0c6a493a90c7e",
+   "stage_b_accept.py": "152229da8084cfbb448958a27e3e52b8f5eb745263c8841ace23719f9d7815c5",
+   "stage_b_run.py": "7841aa1698643afda253158df76c59ea3e955058e5fefedc1ec86f223a7aa3fd"
+  },
+  "decided_before_any_outcome": true,
+  "infrastructure_restorations": [
+   "H4177_STAGE_B/RESTORED_ETC_SUPERVISOR_PINS_20261101.json",
+   "H4177_STAGE_B/RESTORED_SYMLINKS_20261101.json",
+   "H4177_STAGE_B/RESUME_DECISION_20261101_C58623883.json"
+  ],
+  "rules_unchanged": "thresholds, gates, clocks, exemptions, pass criteria, holdout tiers, run order unchanged"
+ }
+}

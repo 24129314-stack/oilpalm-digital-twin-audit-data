@@ -1,0 +1,2075 @@
+{
+  "status": "complete",
+  "training": false,
+  "expected_started": 200,
+  "actual_started": 200,
+  "conditions": {
+    "baseline": {
+      "groups": {
+        "D": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 10,
+          "incomplete": 0,
+          "timeouts": 0,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 1.0,
+          "conditional_success_rate": 1.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 5.476666666666667,
+          "mean_penalized_time_s": 5.476666666666667,
+          "min_distance_mean_m": 0.029683312214910985,
+          "release_failure_rate": 0.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 1.0620819773668084,
+          "cutter_gate_rejection_rate": 0.943289224952741,
+          "failure_categories": {
+            "success": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 1,
+            "sd": 0.0,
+            "t95": [
+              1.0,
+              1.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 5.4766666666666675,
+            "sd": 1.2956444128094888,
+            "t95": [
+              3.8679116448072692,
+              7.085421688526066
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        },
+        "E": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 10,
+          "incomplete": 0,
+          "timeouts": 0,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 1.0,
+          "conditional_success_rate": 1.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 4.766666666666667,
+          "mean_penalized_time_s": 4.766666666666667,
+          "min_distance_mean_m": 0.03018967229872942,
+          "release_failure_rate": 0.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.0,
+          "cutter_gate_rejection_rate": 0.90625,
+          "failure_categories": {
+            "success": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 1,
+            "sd": 0.0,
+            "t95": [
+              1.0,
+              1.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 4.766666666666667,
+            "sd": 0.19895560643855534,
+            "t95": [
+              4.519630652911116,
+              5.013702680422218
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        }
+      },
+      "training_seed_metrics": [
+        {
+          "condition": "baseline",
+          "training_seed": 49,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.633333333333334,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 5.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": -0.36666666666666625
+        },
+        {
+          "condition": "baseline",
+          "training_seed": 149,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.65,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.65,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "baseline",
+          "training_seed": 249,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 5.35,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.966666666666667,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.38333333333333286
+        },
+        {
+          "condition": "baseline",
+          "training_seed": 349,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 5.0166666666666675,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.6,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.41666666666666785
+        },
+        {
+          "condition": "baseline",
+          "training_seed": 449,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 7.733333333333334,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.616666666666667,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 3.116666666666667
+        }
+      ],
+      "success_effect": {
+        "n_training_seeds": 5,
+        "mean": 0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_p": 1.0
+      },
+      "penalized_time_effect": {
+        "n_training_seeds": 5,
+        "mean": 0.7100000000000003,
+        "sd": 1.382760925748836,
+        "t95": [
+          -1.0069244596252376,
+          2.426924459625238
+        ],
+        "exact_cluster_signflip_p": 0.25,
+        "holm10_secondary_p": 1.0
+      },
+      "nominal_episode_mcnemar": {
+        "a_only_success": 0,
+        "b_only_success": 0,
+        "p_value": 1.0,
+        "risk_difference": 0.0
+      },
+      "both_success_timing": {
+        "n_pairs": 10,
+        "mean_D_minus_E_s": 0.7100000000000003
+      }
+    },
+    "unseen_pose_light": {
+      "groups": {
+        "D": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 0,
+          "incomplete": 0,
+          "timeouts": 10,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.0,
+          "conditional_success_rate": 0.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 1.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.0,
+            0.2775327998628892
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": null,
+          "mean_penalized_time_s": 120.0,
+          "min_distance_mean_m": 0.37163735628128053,
+          "release_failure_rate": 1.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.9350359509620402,
+          "cutter_gate_rejection_rate": null,
+          "failure_categories": {
+            "approach_distance_not_reached": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0,
+            "sd": 0.0,
+            "t95": [
+              0.0,
+              0.0
+            ],
+            "exact_cluster_signflip_p": 1.0
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 120.0,
+            "sd": 0.0,
+            "t95": [
+              120.0,
+              120.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        },
+        "E": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 0,
+          "incomplete": 0,
+          "timeouts": 10,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.0,
+          "conditional_success_rate": 0.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 1.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.0,
+            0.2775327998628892
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": null,
+          "mean_penalized_time_s": 120.0,
+          "min_distance_mean_m": 0.37586475610733033,
+          "release_failure_rate": 1.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.0,
+          "cutter_gate_rejection_rate": null,
+          "failure_categories": {
+            "approach_distance_not_reached": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0,
+            "sd": 0.0,
+            "t95": [
+              0.0,
+              0.0
+            ],
+            "exact_cluster_signflip_p": 1.0
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 120.0,
+            "sd": 0.0,
+            "t95": [
+              120.0,
+              120.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        }
+      },
+      "training_seed_metrics": [
+        {
+          "condition": "unseen_pose_light",
+          "training_seed": 49,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "unseen_pose_light",
+          "training_seed": 149,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "unseen_pose_light",
+          "training_seed": 249,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "unseen_pose_light",
+          "training_seed": 349,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "unseen_pose_light",
+          "training_seed": 449,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        }
+      ],
+      "success_effect": {
+        "n_training_seeds": 5,
+        "mean": 0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_p": 1.0
+      },
+      "penalized_time_effect": {
+        "n_training_seeds": 5,
+        "mean": 0.0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_secondary_p": 1.0
+      },
+      "nominal_episode_mcnemar": {
+        "a_only_success": 0,
+        "b_only_success": 0,
+        "p_value": 1.0,
+        "risk_difference": 0.0
+      },
+      "both_success_timing": {
+        "n_pairs": 0,
+        "mean_D_minus_E_s": null
+      }
+    },
+    "unseen_pose_heavy": {
+      "groups": {
+        "D": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 0,
+          "incomplete": 0,
+          "timeouts": 10,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.0,
+          "conditional_success_rate": 0.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 1.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.0,
+            0.2775327998628892
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": null,
+          "mean_penalized_time_s": 120.0,
+          "min_distance_mean_m": 0.6682787775993347,
+          "release_failure_rate": 1.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.9648731859740284,
+          "cutter_gate_rejection_rate": null,
+          "failure_categories": {
+            "approach_distance_not_reached": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0,
+            "sd": 0.0,
+            "t95": [
+              0.0,
+              0.0
+            ],
+            "exact_cluster_signflip_p": 1.0
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 120.0,
+            "sd": 0.0,
+            "t95": [
+              120.0,
+              120.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        },
+        "E": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 0,
+          "incomplete": 0,
+          "timeouts": 10,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.0,
+          "conditional_success_rate": 0.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 1.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.0,
+            0.2775327998628892
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": null,
+          "mean_penalized_time_s": 120.0,
+          "min_distance_mean_m": 0.6682402670383454,
+          "release_failure_rate": 1.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.0,
+          "cutter_gate_rejection_rate": null,
+          "failure_categories": {
+            "approach_distance_not_reached": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0,
+            "sd": 0.0,
+            "t95": [
+              0.0,
+              0.0
+            ],
+            "exact_cluster_signflip_p": 1.0
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 120.0,
+            "sd": 0.0,
+            "t95": [
+              120.0,
+              120.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        }
+      },
+      "training_seed_metrics": [
+        {
+          "condition": "unseen_pose_heavy",
+          "training_seed": 49,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "unseen_pose_heavy",
+          "training_seed": 149,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "unseen_pose_heavy",
+          "training_seed": 249,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "unseen_pose_heavy",
+          "training_seed": 349,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "unseen_pose_heavy",
+          "training_seed": 449,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        }
+      ],
+      "success_effect": {
+        "n_training_seeds": 5,
+        "mean": 0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_p": 1.0
+      },
+      "penalized_time_effect": {
+        "n_training_seeds": 5,
+        "mean": 0.0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_secondary_p": 1.0
+      },
+      "nominal_episode_mcnemar": {
+        "a_only_success": 0,
+        "b_only_success": 0,
+        "p_value": 1.0,
+        "risk_difference": 0.0
+      },
+      "both_success_timing": {
+        "n_pairs": 0,
+        "mean_D_minus_E_s": null
+      }
+    },
+    "perception_light": {
+      "groups": {
+        "D": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 10,
+          "incomplete": 0,
+          "timeouts": 0,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 1.0,
+          "conditional_success_rate": 1.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 5.193333333333333,
+          "mean_penalized_time_s": 5.193333333333333,
+          "min_distance_mean_m": 0.028571109659969805,
+          "release_failure_rate": 0.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 1.0384701508053775,
+          "cutter_gate_rejection_rate": 0.9334811529933481,
+          "failure_categories": {
+            "success": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 1,
+            "sd": 0.0,
+            "t95": [
+              1.0,
+              1.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 5.193333333333333,
+            "sd": 1.1139643920102051,
+            "t95": [
+              3.810163852493317,
+              6.57650281417335
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        },
+        "E": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 10,
+          "incomplete": 0,
+          "timeouts": 0,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 1.0,
+          "conditional_success_rate": 1.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 4.609999999999999,
+          "mean_penalized_time_s": 4.609999999999999,
+          "min_distance_mean_m": 0.02941945008933544,
+          "release_failure_rate": 0.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.0,
+          "cutter_gate_rejection_rate": 0.8888888888888888,
+          "failure_categories": {
+            "success": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 1,
+            "sd": 0.0,
+            "t95": [
+              1.0,
+              1.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 4.609999999999999,
+            "sd": 0.014907119849998644,
+            "t95": [
+              4.591490365965347,
+              4.628509634034652
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        }
+      },
+      "training_seed_metrics": [
+        {
+          "condition": "perception_light",
+          "training_seed": 49,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.633333333333334,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.6,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0333333333333341
+        },
+        {
+          "condition": "perception_light",
+          "training_seed": 149,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.966666666666667,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.616666666666667,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.34999999999999964
+        },
+        {
+          "condition": "perception_light",
+          "training_seed": 249,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.616666666666667,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.6,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.016666666666667496
+        },
+        {
+          "condition": "perception_light",
+          "training_seed": 349,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 7.166666666666666,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.633333333333333,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 2.533333333333333
+        },
+        {
+          "condition": "perception_light",
+          "training_seed": 449,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.583333333333333,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.6,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": -0.016666666666666607
+        }
+      ],
+      "success_effect": {
+        "n_training_seeds": 5,
+        "mean": 0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_p": 1.0
+      },
+      "penalized_time_effect": {
+        "n_training_seeds": 5,
+        "mean": 0.5833333333333336,
+        "sd": 1.1000631295016157,
+        "t95": [
+          -0.7825754503201875,
+          1.9492421169868548
+        ],
+        "exact_cluster_signflip_p": 0.1875,
+        "holm10_secondary_p": 1.0
+      },
+      "nominal_episode_mcnemar": {
+        "a_only_success": 0,
+        "b_only_success": 0,
+        "p_value": 1.0,
+        "risk_difference": 0.0
+      },
+      "both_success_timing": {
+        "n_pairs": 10,
+        "mean_D_minus_E_s": 0.5833333333333335
+      }
+    },
+    "perception_heavy": {
+      "groups": {
+        "D": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 10,
+          "incomplete": 0,
+          "timeouts": 0,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 1.0,
+          "conditional_success_rate": 1.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 4.61,
+          "mean_penalized_time_s": 4.61,
+          "min_distance_mean_m": 0.030226945504546167,
+          "release_failure_rate": 0.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 1.0196590902904357,
+          "cutter_gate_rejection_rate": 0.8892988929889298,
+          "failure_categories": {
+            "success": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 1,
+            "sd": 0.0,
+            "t95": [
+              1.0,
+              1.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 4.61,
+            "sd": 0.01900292375165266,
+            "t95": [
+              4.586404753716962,
+              4.633595246283039
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        },
+        "E": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 10,
+          "incomplete": 0,
+          "timeouts": 0,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 1.0,
+          "conditional_success_rate": 1.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 4.596666666666667,
+          "mean_penalized_time_s": 4.596666666666667,
+          "min_distance_mean_m": 0.02752940431237221,
+          "release_failure_rate": 0.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.0,
+          "cutter_gate_rejection_rate": 0.8892988929889298,
+          "failure_categories": {
+            "success": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 1,
+            "sd": 0.0,
+            "t95": [
+              1.0,
+              1.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 4.596666666666667,
+            "sd": 0.02173067468400916,
+            "t95": [
+              4.569684470254854,
+              4.623648863078479
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        }
+      },
+      "training_seed_metrics": [
+        {
+          "condition": "perception_heavy",
+          "training_seed": 49,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.633333333333334,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.616666666666667,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.016666666666666607
+        },
+        {
+          "condition": "perception_heavy",
+          "training_seed": 149,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.6,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.566666666666666,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.033333333333333215
+        },
+        {
+          "condition": "perception_heavy",
+          "training_seed": 249,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.616666666666667,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.6,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.016666666666667496
+        },
+        {
+          "condition": "perception_heavy",
+          "training_seed": 349,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.616666666666667,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.616666666666667,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "perception_heavy",
+          "training_seed": 449,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.583333333333333,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.583333333333333,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        }
+      ],
+      "success_effect": {
+        "n_training_seeds": 5,
+        "mean": 0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_p": 1.0
+      },
+      "penalized_time_effect": {
+        "n_training_seeds": 5,
+        "mean": 0.013333333333333464,
+        "sd": 0.013944333775567929,
+        "t95": [
+          -0.003980843894725999,
+          0.030647510561392928
+        ],
+        "exact_cluster_signflip_p": 0.25,
+        "holm10_secondary_p": 1.0
+      },
+      "nominal_episode_mcnemar": {
+        "a_only_success": 0,
+        "b_only_success": 0,
+        "p_value": 1.0,
+        "risk_difference": 0.0
+      },
+      "both_success_timing": {
+        "n_pairs": 10,
+        "mean_D_minus_E_s": 0.013333333333333464
+      }
+    },
+    "delay_light": {
+      "groups": {
+        "D": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 10,
+          "incomplete": 0,
+          "timeouts": 0,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 1.0,
+          "conditional_success_rate": 1.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 5.18,
+          "mean_penalized_time_s": 5.18,
+          "min_distance_mean_m": 0.025457737036049366,
+          "release_failure_rate": 0.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 1.0313797106994522,
+          "cutter_gate_rejection_rate": 0.9246231155778895,
+          "failure_categories": {
+            "success": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 1,
+            "sd": 0.0,
+            "t95": [
+              1.0,
+              1.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 5.180000000000001,
+            "sd": 1.166511894495723,
+            "t95": [
+              3.7315841771281937,
+              6.6284158228718075
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        },
+        "E": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 10,
+          "incomplete": 0,
+          "timeouts": 0,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 1.0,
+          "conditional_success_rate": 1.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 5.2,
+          "mean_penalized_time_s": 5.2,
+          "min_distance_mean_m": 0.024643116723746063,
+          "release_failure_rate": 0.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.0,
+          "cutter_gate_rejection_rate": 0.926829268292683,
+          "failure_categories": {
+            "success": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 1,
+            "sd": 0.0,
+            "t95": [
+              1.0,
+              1.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 5.2,
+            "sd": 1.129835287897213,
+            "t95": [
+              3.797124199117846,
+              6.602875800882154
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        }
+      },
+      "training_seed_metrics": [
+        {
+          "condition": "delay_light",
+          "training_seed": 49,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.65,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.633333333333333,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.016666666666667496
+        },
+        {
+          "condition": "delay_light",
+          "training_seed": 149,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 7.2666666666666675,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.633333333333333,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 2.6333333333333346
+        },
+        {
+          "condition": "delay_light",
+          "training_seed": 249,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.666666666666667,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 7.216666666666667,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": -2.55
+        },
+        {
+          "condition": "delay_light",
+          "training_seed": 349,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.666666666666667,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.7,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": -0.033333333333333215
+        },
+        {
+          "condition": "delay_light",
+          "training_seed": 449,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.65,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.816666666666666,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": -0.16666666666666607
+        }
+      ],
+      "success_effect": {
+        "n_training_seeds": 5,
+        "mean": 0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_p": 1.0
+      },
+      "penalized_time_effect": {
+        "n_training_seeds": 5,
+        "mean": -0.019999999999999397,
+        "sd": 1.834673752408798,
+        "t95": [
+          -2.2980483468154103,
+          2.258048346815411
+        ],
+        "exact_cluster_signflip_p": 0.875,
+        "holm10_secondary_p": 1.0
+      },
+      "nominal_episode_mcnemar": {
+        "a_only_success": 0,
+        "b_only_success": 0,
+        "p_value": 1.0,
+        "risk_difference": 0.0
+      },
+      "both_success_timing": {
+        "n_pairs": 10,
+        "mean_D_minus_E_s": -0.01999999999999984
+      }
+    },
+    "delay_heavy": {
+      "groups": {
+        "D": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 6,
+          "incomplete": 0,
+          "timeouts": 4,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.6,
+          "conditional_success_rate": 0.6,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.4,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.31267376973365824,
+            0.8318196702937638
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 4.772222222222222,
+          "mean_penalized_time_s": 50.86333333333334,
+          "min_distance_mean_m": 0.02423995388671756,
+          "release_failure_rate": 0.4,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 1.028643708157279,
+          "cutter_gate_rejection_rate": 0.9924021040327294,
+          "failure_categories": {
+            "success": 6,
+            "delayed_distance_mask_at_ready_gate": 4
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0.6,
+            "sd": 0.4183300132670378,
+            "t95": [
+              0.08057468315821614,
+              1.1194253168417838
+            ],
+            "exact_cluster_signflip_p": 0.125
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 50.86333333333334,
+            "sd": 48.18174850385661,
+            "t95": [
+              -8.962209154413486,
+              110.68887582108016
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        },
+        "E": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 9,
+          "incomplete": 0,
+          "timeouts": 1,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.9,
+          "conditional_success_rate": 0.9,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.1,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.5958499732047615,
+            0.9821237869049271
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 5.681481481481482,
+          "mean_penalized_time_s": 17.113333333333333,
+          "min_distance_mean_m": 0.020978341018781065,
+          "release_failure_rate": 0.1,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.0,
+          "cutter_gate_rejection_rate": 0.9794326241134752,
+          "failure_categories": {
+            "delayed_distance_mask_at_ready_gate": 1,
+            "success": 9
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0.9,
+            "sd": 0.22360679774997896,
+            "t95": [
+              0.6223554894802208,
+              1.1776445105197793
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 17.113333333333333,
+            "sd": 25.32300063403054,
+            "t95": [
+              -14.329324880433479,
+              48.55599154710015
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        }
+      },
+      "training_seed_metrics": [
+        {
+          "condition": "delay_heavy",
+          "training_seed": 49,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.933333333333334,
+          "E_success_rate": 0.5,
+          "E_penalized_time_s": 62.36666666666667,
+          "success_delta_D_minus_E": 0.5,
+          "time_delta_D_minus_E_s": -57.43333333333334
+        },
+        {
+          "condition": "delay_heavy",
+          "training_seed": 149,
+          "n_pairs": 2,
+          "D_success_rate": 0.5,
+          "D_penalized_time_s": 62.333333333333336,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 5.4,
+          "success_delta_D_minus_E": -0.5,
+          "time_delta_D_minus_E_s": 56.93333333333334
+        },
+        {
+          "condition": "delay_heavy",
+          "training_seed": 249,
+          "n_pairs": 2,
+          "D_success_rate": 1,
+          "D_penalized_time_s": 4.683333333333334,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 5.133333333333333,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": -0.4499999999999993
+        },
+        {
+          "condition": "delay_heavy",
+          "training_seed": 349,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 4.916666666666667,
+          "success_delta_D_minus_E": -1,
+          "time_delta_D_minus_E_s": 115.08333333333333
+        },
+        {
+          "condition": "delay_heavy",
+          "training_seed": 449,
+          "n_pairs": 2,
+          "D_success_rate": 0.5,
+          "D_penalized_time_s": 62.36666666666667,
+          "E_success_rate": 1,
+          "E_penalized_time_s": 7.75,
+          "success_delta_D_minus_E": -0.5,
+          "time_delta_D_minus_E_s": 54.61666666666667
+        }
+      ],
+      "success_effect": {
+        "n_training_seeds": 5,
+        "mean": -0.3,
+        "sd": 0.570087712549569,
+        "t95": [
+          -1.007857388491136,
+          0.407857388491136
+        ],
+        "exact_cluster_signflip_p": 0.5,
+        "holm10_p": 1.0
+      },
+      "penalized_time_effect": {
+        "n_training_seeds": 5,
+        "mean": 33.75,
+        "sd": 65.33000097794104,
+        "t95": [
+          -47.36791021692608,
+          114.86791021692608
+        ],
+        "exact_cluster_signflip_p": 0.5,
+        "holm10_secondary_p": 1.0
+      },
+      "nominal_episode_mcnemar": {
+        "a_only_success": 1,
+        "b_only_success": 4,
+        "p_value": 0.375,
+        "risk_difference": -0.3
+      },
+      "both_success_timing": {
+        "n_pairs": 5,
+        "mean_D_minus_E_s": -0.3799999999999999
+      }
+    },
+    "joint_bias_light": {
+      "groups": {
+        "D": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 5,
+          "incomplete": 0,
+          "timeouts": 5,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.5,
+          "conditional_success_rate": 0.5,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.5,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.236593090512564,
+            0.7634069094874361
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 15.0,
+          "mean_penalized_time_s": 67.5,
+          "min_distance_mean_m": 0.04933060128241777,
+          "release_failure_rate": 0.5,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 1.2349020314415295,
+          "cutter_gate_rejection_rate": 0.9992069785884219,
+          "failure_categories": {
+            "success": 5,
+            "contact_or_other_gate_rejected": 5
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0.5,
+            "sd": 0.0,
+            "t95": [
+              0.5,
+              0.5
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 67.5,
+            "sd": 0.0,
+            "t95": [
+              67.5,
+              67.5
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        },
+        "E": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 5,
+          "incomplete": 0,
+          "timeouts": 5,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.5,
+          "conditional_success_rate": 0.5,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 0.5,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.236593090512564,
+            0.7634069094874361
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": 15.006666666666666,
+          "mean_penalized_time_s": 67.50333333333333,
+          "min_distance_mean_m": 0.04922817274928093,
+          "release_failure_rate": 0.5,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.0,
+          "cutter_gate_rejection_rate": 0.999207020511736,
+          "failure_categories": {
+            "success": 5,
+            "contact_or_other_gate_rejected": 5
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0.5,
+            "sd": 0.0,
+            "t95": [
+              0.5,
+              0.5
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 67.50333333333333,
+            "sd": 0.0074535599249988755,
+            "t95": [
+              67.49407851631601,
+              67.51258815035065
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        }
+      },
+      "training_seed_metrics": [
+        {
+          "condition": "joint_bias_light",
+          "training_seed": 49,
+          "n_pairs": 2,
+          "D_success_rate": 0.5,
+          "D_penalized_time_s": 67.5,
+          "E_success_rate": 0.5,
+          "E_penalized_time_s": 67.5,
+          "success_delta_D_minus_E": 0.0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "joint_bias_light",
+          "training_seed": 149,
+          "n_pairs": 2,
+          "D_success_rate": 0.5,
+          "D_penalized_time_s": 67.5,
+          "E_success_rate": 0.5,
+          "E_penalized_time_s": 67.5,
+          "success_delta_D_minus_E": 0.0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "joint_bias_light",
+          "training_seed": 249,
+          "n_pairs": 2,
+          "D_success_rate": 0.5,
+          "D_penalized_time_s": 67.5,
+          "E_success_rate": 0.5,
+          "E_penalized_time_s": 67.51666666666667,
+          "success_delta_D_minus_E": 0.0,
+          "time_delta_D_minus_E_s": -0.01666666666666572
+        },
+        {
+          "condition": "joint_bias_light",
+          "training_seed": 349,
+          "n_pairs": 2,
+          "D_success_rate": 0.5,
+          "D_penalized_time_s": 67.5,
+          "E_success_rate": 0.5,
+          "E_penalized_time_s": 67.5,
+          "success_delta_D_minus_E": 0.0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "joint_bias_light",
+          "training_seed": 449,
+          "n_pairs": 2,
+          "D_success_rate": 0.5,
+          "D_penalized_time_s": 67.5,
+          "E_success_rate": 0.5,
+          "E_penalized_time_s": 67.5,
+          "success_delta_D_minus_E": 0.0,
+          "time_delta_D_minus_E_s": 0.0
+        }
+      ],
+      "success_effect": {
+        "n_training_seeds": 5,
+        "mean": 0.0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_p": 1.0
+      },
+      "penalized_time_effect": {
+        "n_training_seeds": 5,
+        "mean": -0.003333333333333144,
+        "sd": 0.0074535599249988755,
+        "t95": [
+          -0.012588150350658595,
+          0.005921483683992308
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_secondary_p": 1.0
+      },
+      "nominal_episode_mcnemar": {
+        "a_only_success": 0,
+        "b_only_success": 0,
+        "p_value": 1.0,
+        "risk_difference": 0.0
+      },
+      "both_success_timing": {
+        "n_pairs": 5,
+        "mean_D_minus_E_s": -0.006666666666666643
+      }
+    },
+    "joint_bias_heavy": {
+      "groups": {
+        "D": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 0,
+          "incomplete": 0,
+          "timeouts": 10,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.0,
+          "conditional_success_rate": 0.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 1.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.0,
+            0.2775327998628892
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": null,
+          "mean_penalized_time_s": 120.0,
+          "min_distance_mean_m": 0.4512494385242462,
+          "release_failure_rate": 1.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.9291628057493104,
+          "cutter_gate_rejection_rate": null,
+          "failure_categories": {
+            "approach_distance_not_reached": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0,
+            "sd": 0.0,
+            "t95": [
+              0.0,
+              0.0
+            ],
+            "exact_cluster_signflip_p": 1.0
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 120.0,
+            "sd": 0.0,
+            "t95": [
+              120.0,
+              120.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        },
+        "E": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 0,
+          "incomplete": 0,
+          "timeouts": 10,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.0,
+          "conditional_success_rate": 0.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 1.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.0,
+            0.2775327998628892
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": null,
+          "mean_penalized_time_s": 120.0,
+          "min_distance_mean_m": 0.45125557482242584,
+          "release_failure_rate": 1.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.0,
+          "cutter_gate_rejection_rate": null,
+          "failure_categories": {
+            "approach_distance_not_reached": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0,
+            "sd": 0.0,
+            "t95": [
+              0.0,
+              0.0
+            ],
+            "exact_cluster_signflip_p": 1.0
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 120.0,
+            "sd": 0.0,
+            "t95": [
+              120.0,
+              120.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        }
+      },
+      "training_seed_metrics": [
+        {
+          "condition": "joint_bias_heavy",
+          "training_seed": 49,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "joint_bias_heavy",
+          "training_seed": 149,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "joint_bias_heavy",
+          "training_seed": 249,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "joint_bias_heavy",
+          "training_seed": 349,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "joint_bias_heavy",
+          "training_seed": 449,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        }
+      ],
+      "success_effect": {
+        "n_training_seeds": 5,
+        "mean": 0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_p": 1.0
+      },
+      "penalized_time_effect": {
+        "n_training_seeds": 5,
+        "mean": 0.0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_secondary_p": 1.0
+      },
+      "nominal_episode_mcnemar": {
+        "a_only_success": 0,
+        "b_only_success": 0,
+        "p_value": 1.0,
+        "risk_difference": 0.0
+      },
+      "both_success_timing": {
+        "n_pairs": 0,
+        "mean_D_minus_E_s": null
+      }
+    },
+    "combined": {
+      "groups": {
+        "D": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 0,
+          "incomplete": 0,
+          "timeouts": 10,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.0,
+          "conditional_success_rate": 0.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 1.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.0,
+            0.2775327998628892
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": null,
+          "mean_penalized_time_s": 120.0,
+          "min_distance_mean_m": 0.3742841362953186,
+          "release_failure_rate": 1.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.9404028373766277,
+          "cutter_gate_rejection_rate": null,
+          "failure_categories": {
+            "approach_distance_not_reached": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0,
+            "sd": 0.0,
+            "t95": [
+              0.0,
+              0.0
+            ],
+            "exact_cluster_signflip_p": 1.0
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 120.0,
+            "sd": 0.0,
+            "t95": [
+              120.0,
+              120.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        },
+        "E": {
+          "started": 10,
+          "completed": 10,
+          "normally_completed": 10,
+          "policy_failures": 0,
+          "successes": 0,
+          "incomplete": 0,
+          "timeouts": 10,
+          "wrong_targets": 0,
+          "simulation_anomalies": 0,
+          "infrastructure_failures": 0,
+          "excluded": 0,
+          "strict_success_rate": 0.0,
+          "conditional_success_rate": 0.0,
+          "incomplete_rate": 0.0,
+          "timeout_rate": 1.0,
+          "wrong_target_rate": 0.0,
+          "infrastructure_failure_rate": 0.0,
+          "simulation_anomaly_rate": 0.0,
+          "strict_success_wilson95": [
+            0.0,
+            0.2775327998628892
+          ],
+          "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+          "started_definition": "at least one control action executed; automatic reset alone is not admission",
+          "mean_success_time_s": null,
+          "mean_penalized_time_s": 120.0,
+          "min_distance_mean_m": 0.3783279895782471,
+          "release_failure_rate": 1.0,
+          "wrong_petiole_attempts": 0,
+          "rl_retained_norm_mean": 0.0,
+          "cutter_gate_rejection_rate": null,
+          "failure_categories": {
+            "approach_distance_not_reached": 10
+          },
+          "five_seed_success_summary": {
+            "n_training_seeds": 5,
+            "mean": 0,
+            "sd": 0.0,
+            "t95": [
+              0.0,
+              0.0
+            ],
+            "exact_cluster_signflip_p": 1.0
+          },
+          "five_seed_penalized_time_summary": {
+            "n_training_seeds": 5,
+            "mean": 120.0,
+            "sd": 0.0,
+            "t95": [
+              120.0,
+              120.0
+            ],
+            "exact_cluster_signflip_p": 0.0625
+          }
+        }
+      },
+      "training_seed_metrics": [
+        {
+          "condition": "combined",
+          "training_seed": 49,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "combined",
+          "training_seed": 149,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "combined",
+          "training_seed": 249,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "combined",
+          "training_seed": 349,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        },
+        {
+          "condition": "combined",
+          "training_seed": 449,
+          "n_pairs": 2,
+          "D_success_rate": 0,
+          "D_penalized_time_s": 120.0,
+          "E_success_rate": 0,
+          "E_penalized_time_s": 120.0,
+          "success_delta_D_minus_E": 0,
+          "time_delta_D_minus_E_s": 0.0
+        }
+      ],
+      "success_effect": {
+        "n_training_seeds": 5,
+        "mean": 0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_p": 1.0
+      },
+      "penalized_time_effect": {
+        "n_training_seeds": 5,
+        "mean": 0.0,
+        "sd": 0.0,
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "exact_cluster_signflip_p": 1.0,
+        "holm10_secondary_p": 1.0
+      },
+      "nominal_episode_mcnemar": {
+        "a_only_success": 0,
+        "b_only_success": 0,
+        "p_value": 1.0,
+        "risk_difference": 0.0
+      },
+      "both_success_timing": {
+        "n_pairs": 0,
+        "mean_D_minus_E_s": null
+      }
+    }
+  },
+  "inference_unit": "five policy training seeds; two repeated held-out scene seeds, not 100 independent scenes",
+  "minimum_two_sided_cluster_p": 0.0625,
+  "equivalence": "not tested; lack of positive evidence does not prove equivalence",
+  "metrics_warning": "Wilson and episode McNemar are nominal descriptive; cluster signflip uses training seeds",
+  "paired_initial_observations_verified": true,
+  "positive_RL_success_evidence": false,
+  "positive_RL_speed_evidence": false,
+  "observed_positive_success_conditions": [],
+  "observed_positive_penalized_speed_conditions": [
+    "delay_light",
+    "joint_bias_light"
+  ],
+  "significance_warning": "With five clusters this two-sided exact test cannot reach .05. Numerical positive effects must still be reported; False significance flags do not establish no effect."
+}

@@ -1,0 +1,37 @@
+{
+ "tool_slack_m": {
+  "Blade": 0.01,
+  "Component68": 0.1558,
+  "Component70": 0.0482,
+  "Component73": 0.0662,
+  "Component94": 0.0608,
+  "Shaft": 0.01,
+  "Component66": 0.0869,
+  "Component69": 0.0499,
+  "Component71": 0.0887,
+  "Component72": 0.079,
+  "Component78": 0.1166,
+  "Component86": 0.0641
+ },
+ "calibration": "500 random configs, seed 2",
+ "holdout_check": "independent 300 random configs, seed 99",
+ "results": {
+  "frame0000": {
+   "holdout_random_configs": 150,
+   "pairs": 21600,
+   "max_bound_minus_exact_m": -0.010222424171504985,
+   "violations": 0,
+   "validity_call_s": 0.01373199260327965,
+   "exact_per_call": 28.1
+  },
+  "frame0006": {
+   "holdout_random_configs": 150,
+   "pairs": 21600,
+   "max_bound_minus_exact_m": -0.010223393279944704,
+   "violations": 0,
+   "validity_call_s": 0.037620399841107426,
+   "exact_per_call": 29.18
+  }
+ },
+ "claim": "a pruned pair never hides a registered pair_gap below the exact-evaluation threshold"
+}

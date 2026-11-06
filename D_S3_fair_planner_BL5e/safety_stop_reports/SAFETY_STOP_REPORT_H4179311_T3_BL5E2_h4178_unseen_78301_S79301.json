@@ -1,0 +1,59 @@
+{
+ "utc": "2026-11-06T01:25:50.559236+00:00",
+ "case": "H4179311_T3_BL5E2_h4178_unseen_78301_S79301",
+ "experiment": "T3",
+ "judgement_mode": "landing",
+ "safety_failure_count": 15,
+ "first_safety_failures": [
+  {
+   "frame": 343,
+   "gate": "CUT_without_original_physical_gates_or_identity",
+   "object_id": [
+    "petiole",
+    0
+   ]
+  },
+  {
+   "frame": 366,
+   "gate": "nonBlade_below_2mm",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": -0.0013172460552329512,
+   "boundary": "post"
+  },
+  {
+   "frame": 366,
+   "gate": "nonBlade_positive_force",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "force_n": 245.05914306640625,
+   "boundary": "post"
+  },
+  {
+   "frame": 640,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "stalk",
+    1
+   ],
+   "gap_m": 0.001539335427770544,
+   "boundary": "post"
+  },
+  {
+   "frame": 641,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "stalk",
+    1
+   ],
+   "gap_m": 0.0014220762831940008,
+   "boundary": "post"
+  }
+ ],
+ "furthest_stage": "stalk1_release",
+ "action": "reported; queue continues"
+}

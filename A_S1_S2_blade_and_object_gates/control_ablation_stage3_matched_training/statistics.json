@@ -1,0 +1,493 @@
+{
+  "study": "budget-matched stage3 pilot; shared all-action BC and goal initialization; one training seed",
+  "groups": {
+    "A": {
+      "metrics": {
+        "started": 20,
+        "completed": 20,
+        "normally_completed": 20,
+        "policy_failures": 0,
+        "successes": 0,
+        "incomplete": 0,
+        "timeouts": 20,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.0,
+        "conditional_success_rate": 0.0,
+        "incomplete_rate": 0.0,
+        "timeout_rate": 1.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission",
+        "episode_length_mean": 3600,
+        "min_tip_distance_m_mean": 0.34294274300336836,
+        "mean_harvest_time_s": null,
+        "release_failure_rate": 1.0,
+        "cutter_gate_rejection_rate": null,
+        "cutter_command_steps": 0,
+        "cutter_gate_rejected_steps": 0,
+        "requested_cutter_command_steps": 72000,
+        "request_level_gate_rejection_rate": 1.0,
+        "safety_suppressed_cutter_steps": 72000,
+        "rl_residual_norm_mean": 1.0229940921217202,
+        "action_override_fraction_mean": 0.2225694461259991,
+        "action_clip_fraction_mean": 0.11145833416376263
+      },
+      "control_means": {
+        "alignment_active_steps": 0.0,
+        "rl_residual_norm": 1.0229940921217202,
+        "rl_arm_override_fraction": 0.0,
+        "action_clip_fraction": 0.11145833416376263,
+        "rl_modified_fraction": 0.2225694461259991,
+        "component_norm_rl": 1.534540193075935,
+        "component_norm_rule": 0.0,
+        "component_norm_servo": 0.0,
+        "component_norm_alignment": 0.0,
+        "component_norm_safety": 2.005554949624671,
+        "component_norm_clipping": 0.13848021030622637,
+        "component_relative_norm_rl": 0.41711935651136767,
+        "component_relative_norm_rule": 0.0,
+        "component_relative_norm_servo": 0.0,
+        "component_relative_norm_alignment": 0.0,
+        "component_relative_norm_safety": 0.5452624328637289,
+        "component_relative_norm_clipping": 0.03761821067258198
+      },
+      "checkpoint_sha256": "fdd8ba5b6904ecff3691109a41c4e10397b24f0b1248b2e8bc151883249cd4dc",
+      "config": {
+        "rl": true,
+        "servo": false,
+        "alignment": false
+      },
+      "training": {
+        "seed": 49,
+        "rollout_iterations": 50,
+        "ppo_updates": 50,
+        "environment_steps": 4800,
+        "raw_initial_sha256": "d37866fbb8ffc845514cdb4ffc9307476b2f8b69acbb9fd6dfb200c21cb21b3e",
+        "goal_initial_sha256": "d22a1f1af922538484facc40f0592d9f706b45d0b2159a18475075a8d4cf973e",
+        "counts": {
+          "completed": 3,
+          "successes": 1,
+          "wrong_cuts": 2,
+          "timeouts": 0,
+          "invalid": 0
+        },
+        "unfinished": 4
+      }
+    },
+    "B": {
+      "metrics": {
+        "started": 20,
+        "completed": 20,
+        "normally_completed": 20,
+        "policy_failures": 0,
+        "successes": 20,
+        "incomplete": 0,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 1.0,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.0,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.8388748419471806,
+          1.0
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission",
+        "episode_length_mean": 145.35,
+        "min_tip_distance_m_mean": 0.030587583780288696,
+        "mean_harvest_time_s": 4.845,
+        "release_failure_rate": 0.0,
+        "cutter_gate_rejection_rate": 0.9256505576208178,
+        "cutter_command_steps": 807,
+        "cutter_gate_rejected_steps": 747,
+        "requested_cutter_command_steps": 2907,
+        "request_level_gate_rejection_rate": 0.9793601651186791,
+        "safety_suppressed_cutter_steps": 2100,
+        "rl_residual_norm_mean": 1.1226933094534137,
+        "action_override_fraction_mean": 0.6096013686810321,
+        "action_clip_fraction_mean": 0.08489087706103045
+      },
+      "control_means": {
+        "alignment_active_steps": 0.0,
+        "rl_residual_norm": 1.1226933094534137,
+        "rl_arm_override_fraction": 1.0,
+        "action_clip_fraction": 0.08489087706103045,
+        "rl_modified_fraction": 0.6096013686810321,
+        "component_norm_rl": 2.1463568149910457,
+        "component_norm_rule": 0.0,
+        "component_norm_servo": 0.7037540159460848,
+        "component_norm_alignment": 0.0,
+        "component_norm_safety": 1.545067118622406,
+        "component_norm_clipping": 0.0674020811623218,
+        "component_relative_norm_rl": 0.5056297687021039,
+        "component_relative_norm_rule": 0.0,
+        "component_relative_norm_servo": 0.17036875450517822,
+        "component_relative_norm_alignment": 0.0,
+        "component_relative_norm_safety": 0.3043467394564215,
+        "component_relative_norm_clipping": 0.019654736714471144
+      },
+      "checkpoint_sha256": "401229559b1db9cfb2a37f2eae13d7701a8b247841faf4aef4a9c3206b39444b",
+      "config": {
+        "rl": true,
+        "servo": true,
+        "alignment": false
+      },
+      "training": {
+        "seed": 49,
+        "rollout_iterations": 50,
+        "ppo_updates": 50,
+        "environment_steps": 4800,
+        "raw_initial_sha256": "d37866fbb8ffc845514cdb4ffc9307476b2f8b69acbb9fd6dfb200c21cb21b3e",
+        "goal_initial_sha256": "d22a1f1af922538484facc40f0592d9f706b45d0b2159a18475075a8d4cf973e",
+        "counts": {
+          "completed": 25,
+          "successes": 25,
+          "wrong_cuts": 0,
+          "timeouts": 0,
+          "invalid": 0
+        },
+        "unfinished": 4
+      }
+    },
+    "C": {
+      "metrics": {
+        "started": 20,
+        "completed": 20,
+        "normally_completed": 20,
+        "policy_failures": 0,
+        "successes": 0,
+        "incomplete": 0,
+        "timeouts": 20,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.0,
+        "conditional_success_rate": 0.0,
+        "incomplete_rate": 0.0,
+        "timeout_rate": 1.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission",
+        "episode_length_mean": 3600,
+        "min_tip_distance_m_mean": 0.3111651584506035,
+        "mean_harvest_time_s": null,
+        "release_failure_rate": 1.0,
+        "cutter_gate_rejection_rate": null,
+        "cutter_command_steps": 0,
+        "cutter_gate_rejected_steps": 0,
+        "requested_cutter_command_steps": 72000,
+        "request_level_gate_rejection_rate": 1.0,
+        "safety_suppressed_cutter_steps": 72000,
+        "rl_residual_norm_mean": 1.0069694299631649,
+        "action_override_fraction_mean": 0.11152314897906035,
+        "action_clip_fraction_mean": 0.0004120370401069522
+      },
+      "control_means": {
+        "alignment_active_steps": 0.0,
+        "rl_residual_norm": 1.0069694299631649,
+        "rl_arm_override_fraction": 0.0,
+        "action_clip_fraction": 0.0004120370401069522,
+        "rl_modified_fraction": 0.11152314897906035,
+        "component_norm_rl": 1.3922425407204364,
+        "component_norm_rule": 0.0,
+        "component_norm_servo": 0.0,
+        "component_norm_alignment": 0.0,
+        "component_norm_safety": 1.9597368013378647,
+        "component_norm_clipping": 0.0014095549964242512,
+        "component_relative_norm_rl": 0.4151004514300989,
+        "component_relative_norm_rule": 0.0,
+        "component_relative_norm_servo": 0.0,
+        "component_relative_norm_alignment": 0.0,
+        "component_relative_norm_safety": 0.5845862395299806,
+        "component_relative_norm_clipping": 0.00031330915464463434
+      },
+      "checkpoint_sha256": "4a638b95a3634679229105617927e86d6f8337fb56ae2e6d6ca073fcf6e90029",
+      "config": {
+        "rl": true,
+        "servo": false,
+        "alignment": true
+      },
+      "training": {
+        "seed": 49,
+        "rollout_iterations": 50,
+        "ppo_updates": 50,
+        "environment_steps": 4800,
+        "raw_initial_sha256": "d37866fbb8ffc845514cdb4ffc9307476b2f8b69acbb9fd6dfb200c21cb21b3e",
+        "goal_initial_sha256": "d22a1f1af922538484facc40f0592d9f706b45d0b2159a18475075a8d4cf973e",
+        "counts": {
+          "completed": 1,
+          "successes": 0,
+          "wrong_cuts": 1,
+          "timeouts": 0,
+          "invalid": 0
+        },
+        "unfinished": 4
+      }
+    },
+    "D": {
+      "metrics": {
+        "started": 20,
+        "completed": 20,
+        "normally_completed": 20,
+        "policy_failures": 0,
+        "successes": 20,
+        "incomplete": 0,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 1.0,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.0,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.8388748419471806,
+          1.0
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission",
+        "episode_length_mean": 160.8,
+        "min_tip_distance_m_mean": 0.028457869961857795,
+        "mean_harvest_time_s": 5.359999999999999,
+        "release_failure_rate": 0.0,
+        "cutter_gate_rejection_rate": 0.9469964664310954,
+        "cutter_command_steps": 1132,
+        "cutter_gate_rejected_steps": 1072,
+        "requested_cutter_command_steps": 3216,
+        "request_level_gate_rejection_rate": 0.9813432835820896,
+        "safety_suppressed_cutter_steps": 2084,
+        "rl_residual_norm_mean": 1.1337485938374676,
+        "action_override_fraction_mean": 0.6132531989347282,
+        "action_clip_fraction_mean": 0.09680762924531948
+      },
+      "control_means": {
+        "alignment_active_steps": 0.006840796019900498,
+        "rl_residual_norm": 1.1337485938374676,
+        "rl_arm_override_fraction": 1.0,
+        "action_clip_fraction": 0.09680762924531948,
+        "rl_modified_fraction": 0.6132531989347282,
+        "component_norm_rl": 1.9467103080963022,
+        "component_norm_rule": 0.0,
+        "component_norm_servo": 0.4540209870099725,
+        "component_norm_alignment": 0.009017413157728775,
+        "component_norm_safety": 1.2202578673685962,
+        "component_norm_clipping": 0.11730911616069167,
+        "component_relative_norm_rl": 0.5624354656192645,
+        "component_relative_norm_rule": 0.0,
+        "component_relative_norm_servo": 0.13463454948221587,
+        "component_relative_norm_alignment": 0.0019771772719437805,
+        "component_relative_norm_safety": 0.2694954663162949,
+        "component_relative_norm_clipping": 0.031457341076653864
+      },
+      "checkpoint_sha256": "164f5ee072c86374460e2a4820eb97fecd636a20f2200c0726c4f9a01f9b433a",
+      "config": {
+        "rl": true,
+        "servo": true,
+        "alignment": true
+      },
+      "training": {
+        "seed": 49,
+        "rollout_iterations": 50,
+        "ppo_updates": 50,
+        "environment_steps": 4800,
+        "raw_initial_sha256": "d37866fbb8ffc845514cdb4ffc9307476b2f8b69acbb9fd6dfb200c21cb21b3e",
+        "goal_initial_sha256": "d22a1f1af922538484facc40f0592d9f706b45d0b2159a18475075a8d4cf973e",
+        "counts": {
+          "completed": 31,
+          "successes": 31,
+          "wrong_cuts": 0,
+          "timeouts": 0,
+          "invalid": 0
+        },
+        "unfinished": 4
+      }
+    },
+    "E": {
+      "metrics": {
+        "started": 20,
+        "completed": 20,
+        "normally_completed": 20,
+        "policy_failures": 0,
+        "successes": 20,
+        "incomplete": 0,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 1.0,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.0,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.8388748419471806,
+          1.0
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission",
+        "episode_length_mean": 140.65,
+        "min_tip_distance_m_mean": 0.030439040251076223,
+        "mean_harvest_time_s": 4.6883333333333335,
+        "release_failure_rate": 0.0,
+        "cutter_gate_rejection_rate": 0.9158485273492286,
+        "cutter_command_steps": 713,
+        "cutter_gate_rejected_steps": 653,
+        "requested_cutter_command_steps": 2813,
+        "request_level_gate_rejection_rate": 0.9786704585851405,
+        "safety_suppressed_cutter_steps": 2100,
+        "rl_residual_norm_mean": 0.0,
+        "action_override_fraction_mean": 0.5233242674215892,
+        "action_clip_fraction_mean": 0.0
+      },
+      "control_means": {
+        "alignment_active_steps": 0.0,
+        "rl_residual_norm": 0.0,
+        "rl_arm_override_fraction": 0.6774795591894774,
+        "action_clip_fraction": 0.0,
+        "rl_modified_fraction": 0.5233242674215892,
+        "component_norm_rl": 0.0,
+        "component_norm_rule": 1.4142135381698608,
+        "component_norm_servo": 1.3954412435276458,
+        "component_norm_alignment": 0.0,
+        "component_norm_safety": 1.4930678990401707,
+        "component_norm_clipping": 0.0,
+        "component_relative_norm_rl": 0.0,
+        "component_relative_norm_rule": 0.37068915790906376,
+        "component_relative_norm_servo": 0.3237496278009816,
+        "component_relative_norm_alignment": 0.0,
+        "component_relative_norm_safety": 0.30556121069131437,
+        "component_relative_norm_clipping": 0.0
+      },
+      "checkpoint_sha256": "62e81aaa226df62a6b20ba87360ab6a0adc3ded7c47e995879938202dceed100",
+      "config": {
+        "rl": false,
+        "servo": true,
+        "alignment": true
+      },
+      "training": {
+        "seed": 49,
+        "rollout_iterations": 50,
+        "ppo_updates": 0,
+        "environment_steps": 4800,
+        "raw_initial_sha256": "d37866fbb8ffc845514cdb4ffc9307476b2f8b69acbb9fd6dfb200c21cb21b3e",
+        "goal_initial_sha256": "d22a1f1af922538484facc40f0592d9f706b45d0b2159a18475075a8d4cf973e",
+        "counts": {
+          "completed": 31,
+          "successes": 31,
+          "wrong_cuts": 0,
+          "timeouts": 0,
+          "invalid": 0
+        },
+        "unfinished": 4
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "groups": [
+        "D",
+        "E"
+      ],
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "p_value": 1.0,
+      "risk_difference": 0.0,
+      "holm_adjusted_p": 1.0,
+      "holm_with_exploratory_timing_p": 1.0
+    },
+    {
+      "groups": [
+        "B",
+        "A"
+      ],
+      "a_only_success": 20,
+      "b_only_success": 0,
+      "p_value": 1.9073486328125e-06,
+      "risk_difference": 1.0,
+      "holm_adjusted_p": 9.5367431640625e-06,
+      "holm_with_exploratory_timing_p": 1.1444091796875e-05
+    },
+    {
+      "groups": [
+        "C",
+        "A"
+      ],
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "p_value": 1.0,
+      "risk_difference": 0.0,
+      "holm_adjusted_p": 1.0,
+      "holm_with_exploratory_timing_p": 1.0
+    },
+    {
+      "groups": [
+        "D",
+        "B"
+      ],
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "p_value": 1.0,
+      "risk_difference": 0.0,
+      "holm_adjusted_p": 1.0,
+      "holm_with_exploratory_timing_p": 1.0
+    },
+    {
+      "groups": [
+        "D",
+        "C"
+      ],
+      "a_only_success": 20,
+      "b_only_success": 0,
+      "p_value": 1.9073486328125e-06,
+      "risk_difference": 1.0,
+      "holm_adjusted_p": 9.5367431640625e-06,
+      "holm_with_exploratory_timing_p": 1.1444091796875e-05
+    }
+  ],
+  "nominal_binomial_ci_warning": "repeated fixed-scene episodes and only two evaluation seeds are not independent generalization trials",
+  "training_seed_statistics": "one training seed only; five-seed mean/std/CI unavailable, not fabricated",
+  "inference_interaction_risk_difference": 0.0,
+  "DE_paired_successful_harvest_time": {
+    "mean_difference": 0.6716666666666666,
+    "p_value": 1.9073486328125e-06,
+    "n_pairs": 20,
+    "paired_difference_std": 1.1216776804026414,
+    "nominal_paired_mean_t95": [
+      0.14670535287855213,
+      1.1966279804547812
+    ],
+    "standardized_paired_effect_dz": 0.5988054130002505,
+    "interpretation": "exploratory only; fixed scene and repeated seeds; not evidence of equivalence",
+    "holm_success_plus_timing_p": 1.1444091796875e-05
+  }
+}

@@ -1,0 +1,32 @@
+{
+ "utc": "2026-11-02T13:17:48.114670+00:00",
+ "kind": "H4178_SWITCH_FREEZE",
+ "switches": [
+  "AB1_landing",
+  "AB2_stalk_brake",
+  "AB3_e3g",
+  "AB4_zero_manifold",
+  "AB5_temporal",
+  "AB7_live_cold"
+ ],
+ "all_on": "OILPALM_H4178_ABLATION empty: nothing imported or patched",
+ "equivalence_proof_case": "H4178000_PROOF_ALLON_FULL",
+ "equivalence_proof_passed": true,
+ "passing_references": [
+  "H4177209_STAGE_B_B1_FULL_01",
+  "H4177210_STAGE_B_B1_FULL_02",
+  "H4177217_STAGE_B_B1_NOMINAL_FULL_06",
+  "H4177218_STAGE_B_B1_NOMINAL_FULL_07",
+  "H4177221_STAGE_B_B1_NOMINAL_FULL_10"
+ ],
+ "stage_b_source_freeze_sha256": "6b5fc1071530fbb98a9a32e8b4073b3dbacbcb09dd3b247fd02cac0ead2b1f34",
+ "files": {
+  "/workspace/oilpalm_resume_20261013/formal_confirmation/H4178_EXPLORATORY/hooks/sitecustomize.py": "451f54db6be4f31be48ecaff6626c4eb78c75409b72ed3634e6e4744e03fc7ff",
+  "/workspace/oilpalm_resume_20261013/formal_confirmation/H4178_EXPLORATORY/hooks/h4178_ablation_hooks.py": "a7089dc6be1073d00fa6254ff6d27868f836a80131831460dbd586849b9f74e0",
+  "/workspace/oilpalm_resume_20261013/formal_confirmation/H4178_EXPLORATORY/EQUIVALENCE_CRITERIA.json": "a8d4ec10e8715aa0076718c1285a631cd4c320ed65f048d78251e009975d893b",
+  "/workspace/oilpalm_resume_20261013/formal_confirmation/H4178_EXPLORATORY/ENVELOPE_REFERENCE.json": "ab0ece00bf57a2b410b569c55120a64a469517b14701b1209c02cbb702db84fe",
+  "/workspace/oilpalm_resume_20261013/formal_confirmation/H4178_EXPLORATORY/EQUIVALENCE_PROOF.json": "70cf75b071fd1a6849417909389472ada3d4aaed3b38522bb0e7036d9bec2665",
+  "/workspace/oilpalmplantation_all_code/output/analysis/object_cut_contact_prediction_20261005T035256Z/source_h4176000_stalk_cached_brake_20261028/oilpalm/harvesting_rl/bounded_joint_contact_pose_v43r114r5.py": "223ac6a34f73a857cfea3f7729519258c54ae7c110bac969831022644e36085b",
+  "/workspace/oilpalmplantation_all_code/output/analysis/object_cut_contact_prediction_20261005T035256Z/source_h4176000_stalk_cached_brake_20261028/oilpalm/harvesting_rl/finite_three_waypoint_handoff_v43r261.py": "92d7e4dee25489acf161ede86a006c19e1cb254b76e2ffb2d9ffc4d1ddab2d79"
+ }
+}

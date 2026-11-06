@@ -1,0 +1,16 @@
+case,group,method,switch_off,level,rep,furthest_stage,stop_reason,stop_state,frames,dangerous_executed_CUT,dangerous_requested_CUT,nonblade_lt2mm_boundaries_strict,nonblade_lt2mm_boundaries_landing,wrong_releases,unsafe_CUT,solver_peak_landing_force_n,landing_cycles,landing_max_penetration_mm,wall_min,controller_wall_s
+H4178201_E2_BL1_R1,E2_BL1,BL1,,NOMINAL,1,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,427,427,394,394,0,427,,0,,4.6,1.6545417385641485
+H4178201_E2_BL2_R1,E2_BL2,BL2,,NOMINAL,1,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.3,32.34593166317791
+H4178201_E2_BL3_R1,E2_BL3,BL3,,NOMINAL,1,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.166485126595944
+H4178201_E2_BL4_R1,E2_BL4,BL4,,NOMINAL,1,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.5,46.49098792579025
+H4178201_E2_BL5_R1,E2_BL5,BL5,,NOMINAL,1,petiole2_exit,bl5_no_collision_free_plan,,59,0,0,0,0,0,0,,0,,1.1,19.437110814033076
+H4178201_E2_BL1_R2,E2_BL1,BL1,,NOMINAL,2,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,427,427,394,394,0,427,,0,,2.9,1.5644017653539777
+H4178201_E2_BL2_R2,E2_BL2,BL2,,NOMINAL,2,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.74796115537174
+H4178201_E2_BL3_R2,E2_BL3,BL3,,NOMINAL,2,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.3,31.308459248393774
+H4178201_E2_BL4_R2,E2_BL4,BL4,,NOMINAL,2,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.5,45.74050184269436
+H4178201_E2_BL5_R2,E2_BL5,BL5,,NOMINAL,2,petiole2_exit,bl5_no_collision_free_plan,,59,0,0,0,0,0,0,,0,,1.4,36.18203170481138
+H4178201_E2_BL1_R3,E2_BL1,BL1,,NOMINAL,3,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,427,427,394,394,0,427,,0,,4.6,1.6517749021295458
+H4178201_E2_BL2_R3,E2_BL2,BL2,,NOMINAL,3,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.509454233106226
+H4178201_E2_BL3_R3,E2_BL3,BL3,,NOMINAL,3,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.6,31.075979553395882
+H4178201_E2_BL4_R3,E2_BL4,BL4,,NOMINAL,3,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.5,46.653313662158325
+H4178201_E2_BL5_R3,E2_BL5,BL5,,NOMINAL,3,petiole2_exit,bl5_no_collision_free_plan,,59,0,0,0,0,0,0,,0,,1.0,26.98413186869584

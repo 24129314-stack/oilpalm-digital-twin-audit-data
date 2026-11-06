@@ -1,0 +1,328 @@
+{
+  "metrics": {
+    "started": 150,
+    "completed": 120,
+    "normally_completed": 120,
+    "successes": 120,
+    "incomplete": 30,
+    "timeouts": 0,
+    "wrong_targets": 0,
+    "simulation_anomalies": 0,
+    "infrastructure_failures": 0,
+    "excluded": 0,
+    "strict_success_rate": 0.8,
+    "conditional_success_rate": 1.0,
+    "incomplete_rate": 0.2,
+    "timeout_rate": 0.0,
+    "wrong_target_rate": 0.0,
+    "infrastructure_failure_rate": 0.0,
+    "simulation_anomaly_rate": 0.0,
+    "strict_success_wilson95": [
+      0.7288586692020037,
+      0.8561591841771504
+    ],
+    "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+    "started_definition": "at least one control action executed; automatic reset alone is not admission"
+  },
+  "runs": [
+    {
+      "trace": "output/training/selective_goal_training_20260930T042800Z/final_parallel_smoke/training_seed_149/model_iter_000300_seed49_mean.jsonl",
+      "metrics": {
+        "started": 15,
+        "completed": 12,
+        "normally_completed": 12,
+        "successes": 12,
+        "incomplete": 3,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.8,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.2,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.5481455128483065,
+          0.9295245065301844
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission"
+      },
+      "sha256": "39bbfc6321b591f68247a5c3efeffec4aa1b301a2c192d1e03f8944c812c32d8"
+    },
+    {
+      "trace": "output/training/selective_goal_training_20260930T042800Z/final_parallel_smoke/training_seed_149/model_iter_000300_seed743_mean.jsonl",
+      "metrics": {
+        "started": 15,
+        "completed": 12,
+        "normally_completed": 12,
+        "successes": 12,
+        "incomplete": 3,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.8,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.2,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.5481455128483065,
+          0.9295245065301844
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission"
+      },
+      "sha256": "fdef30af653aca6facb270c058b24be90e2e301e9eef854119c5e14797d18c96"
+    },
+    {
+      "trace": "output/training/selective_goal_training_20260930T042800Z/final_parallel_smoke/training_seed_249/model_iter_000300_seed49_mean.jsonl",
+      "metrics": {
+        "started": 15,
+        "completed": 12,
+        "normally_completed": 12,
+        "successes": 12,
+        "incomplete": 3,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.8,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.2,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.5481455128483065,
+          0.9295245065301844
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission"
+      },
+      "sha256": "28418d2a22c62688ee783daf3b7d77c9042ea758a43c5948db5fbc42bbd406de"
+    },
+    {
+      "trace": "output/training/selective_goal_training_20260930T042800Z/final_parallel_smoke/training_seed_249/model_iter_000300_seed743_mean.jsonl",
+      "metrics": {
+        "started": 15,
+        "completed": 12,
+        "normally_completed": 12,
+        "successes": 12,
+        "incomplete": 3,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.8,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.2,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.5481455128483065,
+          0.9295245065301844
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission"
+      },
+      "sha256": "faa99bfceb4d349b3040cc95e424845681701d0423f2974e09ba0084087b32e2"
+    },
+    {
+      "trace": "output/training/selective_goal_training_20260930T042800Z/final_parallel_smoke/training_seed_349/model_iter_000300_seed49_mean.jsonl",
+      "metrics": {
+        "started": 15,
+        "completed": 12,
+        "normally_completed": 12,
+        "successes": 12,
+        "incomplete": 3,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.8,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.2,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.5481455128483065,
+          0.9295245065301844
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission"
+      },
+      "sha256": "84c040d98c98b3f55e07254332198e201a250b57ae0c7934e65707688ac2ca7e"
+    },
+    {
+      "trace": "output/training/selective_goal_training_20260930T042800Z/final_parallel_smoke/training_seed_349/model_iter_000300_seed743_mean.jsonl",
+      "metrics": {
+        "started": 15,
+        "completed": 12,
+        "normally_completed": 12,
+        "successes": 12,
+        "incomplete": 3,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.8,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.2,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.5481455128483065,
+          0.9295245065301844
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission"
+      },
+      "sha256": "dedbed5c26eb63aa2cc40e0491cac211b00e3eab8295e11f77c33a0aeea92ef7"
+    },
+    {
+      "trace": "output/training/selective_goal_training_20260930T042800Z/final_parallel_smoke/training_seed_449/model_iter_000300_seed49_mean.jsonl",
+      "metrics": {
+        "started": 15,
+        "completed": 12,
+        "normally_completed": 12,
+        "successes": 12,
+        "incomplete": 3,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.8,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.2,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.5481455128483065,
+          0.9295245065301844
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission"
+      },
+      "sha256": "4c12be66f90d944b633a7bef980e76e56011efaceb2677548f55da4713b503fc"
+    },
+    {
+      "trace": "output/training/selective_goal_training_20260930T042800Z/final_parallel_smoke/training_seed_449/model_iter_000300_seed743_mean.jsonl",
+      "metrics": {
+        "started": 15,
+        "completed": 12,
+        "normally_completed": 12,
+        "successes": 12,
+        "incomplete": 3,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.8,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.2,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.5481455128483065,
+          0.9295245065301844
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission"
+      },
+      "sha256": "e742aeb699a83ff4e6125e051027d9f2d279c2371bae42648fce9e3e6c921b43"
+    },
+    {
+      "trace": "output/training/selective_goal_training_20260930T042800Z/final_parallel_smoke/training_seed_49/model_iter_000300_seed49_mean.jsonl",
+      "metrics": {
+        "started": 15,
+        "completed": 12,
+        "normally_completed": 12,
+        "successes": 12,
+        "incomplete": 3,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.8,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.2,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.5481455128483065,
+          0.9295245065301844
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission"
+      },
+      "sha256": "74c808001185a7bf7af23f0041210a817435be7d265e1d1dd6389f6ffd7b33d3"
+    },
+    {
+      "trace": "output/training/selective_goal_training_20260930T042800Z/final_parallel_smoke/training_seed_49/model_iter_000300_seed743_mean.jsonl",
+      "metrics": {
+        "started": 15,
+        "completed": 12,
+        "normally_completed": 12,
+        "successes": 12,
+        "incomplete": 3,
+        "timeouts": 0,
+        "wrong_targets": 0,
+        "simulation_anomalies": 0,
+        "infrastructure_failures": 0,
+        "excluded": 0,
+        "strict_success_rate": 0.8,
+        "conditional_success_rate": 1.0,
+        "incomplete_rate": 0.2,
+        "timeout_rate": 0.0,
+        "wrong_target_rate": 0.0,
+        "infrastructure_failure_rate": 0.0,
+        "simulation_anomaly_rate": 0.0,
+        "strict_success_wilson95": [
+          0.5481455128483065,
+          0.9295245065301844
+        ],
+        "conditional_denominator": "terminal episodes excluding infrastructure/simulation faults",
+        "started_definition": "at least one control action executed; automatic reset alone is not admission"
+      },
+      "sha256": "f61b4eda92f371237a8108d65d8cbece95f3a61543a4a95306afdb80adc4a546"
+    }
+  ],
+  "classification_counts": {
+    "episode时间不足/全局完成配额提前停止": 30
+  },
+  "incomplete_length_range": [
+    1,
+    51
+  ],
+  "no_infrastructure_exclusion": true,
+  "original_evidence_preserved": true
+}

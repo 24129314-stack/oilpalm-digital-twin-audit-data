@@ -1,0 +1,41 @@
+{
+ "utc": "2026-11-06T01:24:36.913795+00:00",
+ "case": "H4179311_T3_BL5E2_h4178_unseen_78301_S78301",
+ "experiment": "T3",
+ "judgement_mode": "landing",
+ "safety_failure_count": 5,
+ "first_safety_failures": [
+  {
+   "row": 5424,
+   "control_step": 339,
+   "gate": "solver_landing_single_shape_force_above_300N",
+   "force_n": 481.6622009277344
+  },
+  {
+   "row": 5456,
+   "control_step": 341,
+   "gate": "solver_landing_single_shape_force_above_300N",
+   "force_n": 828.1004028320312
+  },
+  {
+   "row": 5488,
+   "control_step": 343,
+   "gate": "solver_landing_single_shape_force_above_300N",
+   "force_n": 549.9467926025391
+  },
+  {
+   "row": 5536,
+   "control_step": 346,
+   "gate": "solver_landing_single_shape_force_above_300N",
+   "force_n": 663.2545166015625
+  },
+  {
+   "row": 5600,
+   "control_step": 350,
+   "gate": "solver_landing_single_shape_force_above_300N",
+   "force_n": 433.521728515625
+  }
+ ],
+ "furthest_stage": "stalk1_exit",
+ "action": "reported; queue continues"
+}

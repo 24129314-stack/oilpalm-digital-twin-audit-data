@@ -1,0 +1,88 @@
+{
+ "case": "H4178000_PROOF_ALLON_FULL",
+ "pattern": [
+  599,
+  28,
+  355,
+  587,
+  29,
+  356,
+  588,
+  229,
+  398,
+  598
+ ],
+ "criteria_sha256": "a8d4ec10e8715aa0076718c1285a631cd4c320ed65f048d78251e009975d893b",
+ "envelope_sha256": "ab0ece00bf57a2b410b569c55120a64a469517b14701b1209c02cbb702db84fe",
+ "hook_events": [],
+ "hooks_inert": true,
+ "judge_passed": true,
+ "judge_safety": true,
+ "matching_references": [
+  "H4177209_STAGE_B_B1_FULL_01",
+  "H4177210_STAGE_B_B1_FULL_02",
+  "H4177217_STAGE_B_B1_NOMINAL_FULL_06",
+  "H4177218_STAGE_B_B1_NOMINAL_FULL_07",
+  "H4177221_STAGE_B_B1_NOMINAL_FULL_10"
+ ],
+ "envelope_used": {
+  "joint_rad": 1.2725591659545898e-05,
+  "gap_m": 0.5353064576468394,
+  "body_position_m": 0.6943789720535278,
+  "body_quat": 1.0259601846337318
+ },
+ "comparisons": {
+  "H4177209_STAGE_B_B1_FULL_01": {
+   "joint_rad": 2.384185791015625e-07,
+   "gap_m": 0.008490774164554793,
+   "body_position_m": 0.0018824338912963867,
+   "body_quat": 0.006812989711761475
+  },
+  "H4177210_STAGE_B_B1_FULL_02": {
+   "joint_rad": 1.2665987014770508e-05,
+   "gap_m": 0.33620758349090174,
+   "body_position_m": 0.6942219734191895,
+   "body_quat": 1.0255266204476357
+  },
+  "H4177217_STAGE_B_B1_NOMINAL_FULL_06": {
+   "joint_rad": 1.2606382369995117e-05,
+   "gap_m": 0.5229770807931127,
+   "body_position_m": 0.2513446807861328,
+   "body_quat": 0.47138750925660133
+  },
+  "H4177218_STAGE_B_B1_NOMINAL_FULL_07": {
+   "joint_rad": 1.2725591659545898e-05,
+   "gap_m": 0.41787319177641713,
+   "body_position_m": 0.6926943063735962,
+   "body_quat": 1.0259598940610886
+  },
+  "H4177221_STAGE_B_B1_NOMINAL_FULL_10": {
+   "joint_rad": 1.7881393432617188e-07,
+   "gap_m": 0.0007063677890855047,
+   "body_position_m": 0.0005216300487518311,
+   "body_quat": 0.0009639859199523926
+  }
+ },
+ "states_equal": {
+  "H4177209_STAGE_B_B1_FULL_01": true,
+  "H4177210_STAGE_B_B1_FULL_02": true,
+  "H4177217_STAGE_B_B1_NOMINAL_FULL_06": true,
+  "H4177218_STAGE_B_B1_NOMINAL_FULL_07": true,
+  "H4177221_STAGE_B_B1_NOMINAL_FULL_10": true
+ },
+ "within_envelope": {
+  "H4177209_STAGE_B_B1_FULL_01": true,
+  "H4177210_STAGE_B_B1_FULL_02": true,
+  "H4177217_STAGE_B_B1_NOMINAL_FULL_06": true,
+  "H4177218_STAGE_B_B1_NOMINAL_FULL_07": true,
+  "H4177221_STAGE_B_B1_NOMINAL_FULL_10": true
+ },
+ "passing_references": [
+  "H4177209_STAGE_B_B1_FULL_01",
+  "H4177210_STAGE_B_B1_FULL_02",
+  "H4177217_STAGE_B_B1_NOMINAL_FULL_06",
+  "H4177218_STAGE_B_B1_NOMINAL_FULL_07",
+  "H4177221_STAGE_B_B1_NOMINAL_FULL_10"
+ ],
+ "passed": true
+}

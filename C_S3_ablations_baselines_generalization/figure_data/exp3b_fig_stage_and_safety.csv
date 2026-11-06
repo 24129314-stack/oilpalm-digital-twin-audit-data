@@ -1,0 +1,31 @@
+case,group,method,switch_off,level,rep,furthest_stage,stop_reason,stop_state,frames,dangerous_executed_CUT,dangerous_requested_CUT,nonblade_lt2mm_boundaries_strict,nonblade_lt2mm_boundaries_landing,wrong_releases,unsafe_CUT,solver_peak_landing_force_n,landing_cycles,landing_max_penetration_mm,wall_min,controller_wall_s
+H4178401_E3B_OURS_h4178_unseen_78301,E3B_OURS,OURS,,h4178_unseen_78301,,screening,our frozen pipeline refused the unseen geometry before physics (v26 initialization protocol / frozen path qualification) = stopped at screening,,,,,,,,,,,,,
+H4178401_E3B_BL1_h4178_unseen_78301,E3B_BL1,BL1,,h4178_unseen_78301,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,73,73,391,391,0,73,,0,,4.6,1.6523498967289925
+H4178401_E3B_BL2_h4178_unseen_78301,E3B_BL2,BL2,,h4178_unseen_78301,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.2,31.311852027196437
+H4178401_E3B_BL3_h4178_unseen_78301,E3B_BL3,BL3,,h4178_unseen_78301,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.5,31.760654751909897
+H4178401_E3B_BL4_h4178_unseen_78301,E3B_BL4,BL4,,h4178_unseen_78301,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.4,45.757254922995344
+H4178401_E3B_BL5_h4178_unseen_78301,E3B_BL5,BL5,,h4178_unseen_78301,,petiole2_exit,bl5_no_collision_free_plan,,64,0,0,0,0,0,0,,0,,1.1,19.890385908074677
+H4178401_E3B_OURS_h4178_unseen_78302,E3B_OURS,OURS,,h4178_unseen_78302,,screening,our frozen pipeline refused the unseen geometry before physics (v26 initialization protocol / frozen path qualification) = stopped at screening,,,,,,,,,,,,,
+H4178401_E3B_BL1_h4178_unseen_78302,E3B_BL1,BL1,,h4178_unseen_78302,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,92,92,399,399,0,92,,0,,4.6,1.646374484989792
+H4178401_E3B_BL2_h4178_unseen_78302,E3B_BL2,BL2,,h4178_unseen_78302,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.5,32.149655535118654
+H4178401_E3B_BL3_h4178_unseen_78302,E3B_BL3,BL3,,h4178_unseen_78302,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.5,32.00251793931238
+H4178401_E3B_BL4_h4178_unseen_78302,E3B_BL4,BL4,,h4178_unseen_78302,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.9,57.77408409235068
+H4178401_E3B_BL5_h4178_unseen_78302,E3B_BL5,BL5,,h4178_unseen_78302,,petiole2_exit,bl5_no_collision_free_plan,,76,0,0,0,0,0,0,,0,,1.4,29.08231476182118
+H4178401_E3B_OURS_h4178_unseen_78303,E3B_OURS,OURS,,h4178_unseen_78303,,screening,our frozen pipeline refused the unseen geometry before physics (v26 initialization protocol / frozen path qualification) = stopped at screening,,,,,,,,,,,,,
+H4178401_E3B_BL1_h4178_unseen_78303,E3B_BL1,BL1,,h4178_unseen_78303,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,211,211,389,389,0,211,,0,,4.5,1.6353830401785672
+H4178401_E3B_BL2_h4178_unseen_78303,E3B_BL2,BL2,,h4178_unseen_78303,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.5,31.421335706487298
+H4178401_E3B_BL3_h4178_unseen_78303,E3B_BL3,BL3,,h4178_unseen_78303,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.2,31.603754699928686
+H4178401_E3B_BL4_h4178_unseen_78303,E3B_BL4,BL4,,h4178_unseen_78303,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.4,46.03099227393977
+H4178401_E3B_BL5_h4178_unseen_78303,E3B_BL5,BL5,,h4178_unseen_78303,,petiole2_exit,bl5_no_collision_free_plan,,67,0,0,0,0,0,0,,0,,0.9,19.32593931281008
+H4178401_E3B_OURS_h4178_unseen_78304,E3B_OURS,OURS,,h4178_unseen_78304,,screening,our frozen pipeline refused the unseen geometry before physics (v26 initialization protocol / frozen path qualification) = stopped at screening,,,,,,,,,,,,,
+H4178401_E3B_BL1_h4178_unseen_78304,E3B_BL1,BL1,,h4178_unseen_78304,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,449,449,415,415,0,449,,0,,4.5,1.633145562838763
+H4178401_E3B_BL2_h4178_unseen_78304,E3B_BL2,BL2,,h4178_unseen_78304,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.2,32.12937365099788
+H4178401_E3B_BL3_h4178_unseen_78304,E3B_BL3,BL3,,h4178_unseen_78304,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.2,31.717182559194043
+H4178401_E3B_BL4_h4178_unseen_78304,E3B_BL4,BL4,,h4178_unseen_78304,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.4,46.3857494413387
+H4178401_E3B_BL5_h4178_unseen_78304,E3B_BL5,BL5,,h4178_unseen_78304,,none,bl5_no_collision_free_plan,,35,0,0,0,0,0,0,,0,,0.8,11.908875969005749
+H4178401_E3B_OURS_h4178_unseen_78305,E3B_OURS,OURS,,h4178_unseen_78305,,screening,our frozen pipeline refused the unseen geometry before physics (v26 initialization protocol / frozen path qualification) = stopped at screening,,,,,,,,,,,,,
+H4178401_E3B_BL1_h4178_unseen_78305,E3B_BL1,BL1,,h4178_unseen_78305,,petiole2_CUT,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,456,456,389,389,0,456,,0,,4.5,1.635585049400106
+H4178401_E3B_BL2_h4178_unseen_78305,E3B_BL2,BL2,,h4178_unseen_78305,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.5,31.16519228857942
+H4178401_E3B_BL3_h4178_unseen_78305,E3B_BL3,BL3,,h4178_unseen_78305,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,4.5,31.543501429026946
+H4178401_E3B_BL4_h4178_unseen_78305,E3B_BL4,BL4,,h4178_unseen_78305,,none,"h4178_uniform_no_release_within_480_frames:('petiole', 2)",,482,0,0,0,0,0,0,,0,,3.5,46.35427554929629
+H4178401_E3B_BL5_h4178_unseen_78305,E3B_BL5,BL5,,h4178_unseen_78305,,petiole2_exit,bl5_no_collision_free_plan,,60,0,0,0,0,0,0,,0,,1.1,19.05434609646909

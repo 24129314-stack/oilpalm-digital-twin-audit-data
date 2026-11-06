@@ -1,0 +1,49 @@
+{
+ "utc": "2026-11-06T03:05:36.479372+00:00",
+ "case": "H4179311_T3_BL5E2_h4178_unseen_78303_S79301",
+ "experiment": "T3",
+ "judgement_mode": "landing",
+ "safety_failure_count": 11,
+ "first_safety_failures": [
+  {
+   "frame": 629,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "stalk",
+    1
+   ],
+   "gap_m": 0.0010402054684722668,
+   "boundary": "post"
+  },
+  {
+   "frame": 630,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "stalk",
+    1
+   ],
+   "gap_m": 0.0006960684506596912,
+   "boundary": "post"
+  },
+  {
+   "row": 5360,
+   "control_step": 335,
+   "gate": "solver_landing_single_shape_force_above_300N",
+   "force_n": 482.84893798828125
+  },
+  {
+   "row": 5392,
+   "control_step": 337,
+   "gate": "solver_landing_single_shape_force_above_300N",
+   "force_n": 788.0017700195312
+  },
+  {
+   "row": 5424,
+   "control_step": 339,
+   "gate": "solver_landing_single_shape_force_above_300N",
+   "force_n": 693.0264129638672
+  }
+ ],
+ "furthest_stage": "stalk1_exit",
+ "action": "reported; queue continues"
+}

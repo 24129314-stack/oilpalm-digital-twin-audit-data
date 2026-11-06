@@ -1,0 +1,61 @@
+{
+ "utc": "2026-11-06T00:31:23.173909+00:00",
+ "case": "H4179211_T2_BL5E2_CONTACT_DROP3_FORCE08_S79202",
+ "experiment": "T2",
+ "judgement_mode": "landing",
+ "safety_failure_count": 11,
+ "first_safety_failures": [
+  {
+   "frame": 417,
+   "gate": "nonBlade_below_2mm",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0018859223682743537,
+   "boundary": "post"
+  },
+  {
+   "frame": 418,
+   "gate": "nonBlade_below_2mm",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0016640037922219936,
+   "boundary": "post"
+  },
+  {
+   "frame": 419,
+   "gate": "nonBlade_below_2mm",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0016290882632376547,
+   "boundary": "post"
+  },
+  {
+   "frame": 420,
+   "gate": "nonBlade_below_2mm",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0015142247470226744,
+   "boundary": "post"
+  },
+  {
+   "frame": 421,
+   "gate": "nonBlade_below_2mm",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0016088175550302147,
+   "boundary": "post"
+  }
+ ],
+ "furthest_stage": "stalk1_exit",
+ "action": "reported; queue continues"
+}

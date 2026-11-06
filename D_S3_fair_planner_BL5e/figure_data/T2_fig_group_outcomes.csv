@@ -1,0 +1,4 @@
+group,n,attempted,not_started,landing,strict,p2_cut_gated,safety_fail_landing,furthest,wilson_landing,wilson_p2_cut_gated
+T2_BL5E2,30,30,0,0,0,27,6,"{""petiole2_exit"": 24, ""stalk1_exit"": 3, ""none"": 3}","[0.0, 0.114]","[0.744, 0.965]"
+T2_OURS,10,10,0,0,0,0,0,"{""screening"": 9, ""stage-B runs 0/3"": 1}","[0.0, 0.278]","[0.0, 0.278]"
+T2_BL5,10,10,0,0,0,10,0,"{""petiole2_exit"": 10}","[0.0, 0.278]","[0.722, 1.0]"

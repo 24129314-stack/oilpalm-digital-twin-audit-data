@@ -1,0 +1,61 @@
+{
+ "utc": "2026-11-05T14:22:47.046393+00:00",
+ "case": "H4179101_T1_BL5E_S79101",
+ "experiment": "T1",
+ "judgement_mode": "landing",
+ "safety_failure_count": 82,
+ "first_safety_failures": [
+  {
+   "frame": 429,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0019758971710635564,
+   "boundary": "post"
+  },
+  {
+   "frame": 430,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0018890434970049719,
+   "boundary": "post"
+  },
+  {
+   "frame": 431,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0018406219102364008,
+   "boundary": "post"
+  },
+  {
+   "frame": 432,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0018125880918690856,
+   "boundary": "post"
+  },
+  {
+   "frame": 433,
+   "gate": "Blade_near_pair_outside_current_cut_or_nonworsening_scope",
+   "object_id": [
+    "petiole",
+    0
+   ],
+   "gap_m": 0.0017942623142285508,
+   "boundary": "post"
+  }
+ ],
+ "furthest_stage": "petiole2_exit",
+ "action": "T1: whole queue paused, reported to the user for a decision"
+}

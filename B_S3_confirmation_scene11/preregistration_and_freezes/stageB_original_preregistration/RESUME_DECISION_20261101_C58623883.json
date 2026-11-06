@@ -1,0 +1,36 @@
+{
+ "utc": "2026-11-01T07:50:53.795790+00:00",
+ "instance": "C.58623883 (164G overlay, RTX 5060 Ti 16GB cc12.0, driver 595.99.02; previous C.58609300 driver 580.159.03)",
+ "authoritative_stage_b": {
+  "preregistration": "STAGE_B_PREREGISTRATION.json",
+  "sha256": "93aeec5bb3a4f44184b00f1b7717462da36c562b5483846b3fcaebae34849adb",
+  "source_freeze": "STAGE_B_SOURCE_FREEZE.json",
+  "source_freeze_sha256": "6b5fc1071530fbb98a9a32e8b4073b3dbacbcb09dd3b247fd02cac0ead2b1f34",
+  "reason": "frozen 2026-10-31 09:40/09:43 before any stage-B launch and already used by launches H4177201-208; re-verified 2507/2507 source files on this instance"
+ },
+ "superseded_never_launched": {
+  "files": [
+   "SOURCE_FREEZE.json",
+   "SOURCE_FREEZE.sha256",
+   "freeze_source.py",
+   "CONTACT_DROP3_FORCE08_SPEC.json",
+   "tests/"
+  ],
+  "source": "source_h4177011_stageB_contact_degradation_hook",
+  "source_freeze_sha256": "48b88e43e7a9d8b39c0e02fa4c84c2ebbc8721f66d445f4ced930f217e0d105c",
+  "reason": "built 2026-11-02 on C.58609300 before the platform copy delivered the 2026-10-31 stage-B files; 0 launches; kept unchanged as history, not used, no denominator"
+ },
+ "prior_launches": {
+  "H4177201_205": "hold 5/5 passed, safety passed",
+  "H4177206_207": "handoff passed, safety passed",
+  "H4177208": "INTERRUPTED_INFRASTRUCTURE, counted, not rerun"
+ },
+ "remaining_in_preregistered_order": [
+  "B2_CONTACT_DROP3_FORCE08 x3 (H4177222-224)",
+  "B1_FULL x3 (H4177209-211)",
+  "B1_NOMINAL_FULL x10 (H4177212-221)"
+ ],
+ "b2_arithmetic": "13/14 holdout tiers ineligible by preregistered screen and counted as not reaching >=2/3; best possible 1/14 = 7.1% < 75% -> B2 cannot pass; stage C will not start. Remaining units still run as preregistered.",
+ "known_label_issue": "STAGE_B_ACCEPTANCE.json files carry formal_confirmation=false/development_only=true and source_freeze_sha256=H4176 identity because stage_b_accept.py calls the unchanged H4176 judge on its non-H4176 path; the real stage-B freeze is in field stage_b_freeze_sha256. To be noted in report; files not edited.",
+ "rules_unchanged": "no threshold/exemption/gate/clock/asset change; serial lock kept; disk >=1500MiB check per launch"
+}

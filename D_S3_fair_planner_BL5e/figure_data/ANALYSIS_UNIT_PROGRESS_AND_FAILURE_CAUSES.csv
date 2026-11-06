@@ -1,0 +1,77 @@
+experiment,group,method,case,level,seed,furthest_stage,gated_cuts,all_three_cuts_gated,env_termination_success,admin_stop,landing_success,landing_safety_passed,landing_safety_failures,failure_classes,nonblade_min_gap_mm,solver_peak_landing_force_n,unsafe_CUT,dangerous_executed_CUT,wall_min
+T1,T1_BL5E2,BL5E2,H4179111_T1_BL5E2_S78101,NOMINAL,78101,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,4.34,,0,0,30.1
+T1,T1_BL5E2,BL5E2,H4179111_T1_BL5E2_S78102,NOMINAL,78102,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,4.19,,0,0,30.7
+T1,T1_BL5E2,BL5E2,H4179111_T1_BL5E2_S78103,NOMINAL,78103,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,2.94,,0,0,30.2
+T1,T1_BL5E2,BL5E2,H4179111_T1_BL5E2_S79101,NOMINAL,79101,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,2.2,,0,0,29.5
+T1,T1_BL5E2,BL5E2,H4179111_T1_BL5E2_S79102,NOMINAL,79102,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,4.2,,0,0,40.1
+T1,T1_OURS,OURS,H4178101_E1_CONTROL_R1,NOMINAL,78101,stalk1_exit,petiole2@28|petiole0@355|stalk1@587,True,True,,True,True,0,,2.96,282.5,0,0,103.1
+T1,T1_BL5,BL5,H4178201_E2_BL5_R1,NOMINAL,78101,petiole2_exit,petiole2@24,False,False,bl5_no_collision_free_plan,False,True,0,,10.2,,0,0,1.1
+T1,T1_OURS,OURS,H4178101_E1_CONTROL_R2,NOMINAL,78102,stalk1_exit,petiole2@28|petiole0@355|stalk1@587,True,True,,True,True,0,,2.96,282.5,0,0,101.6
+T1,T1_BL5,BL5,H4178201_E2_BL5_R2,NOMINAL,78102,petiole2_exit,petiole2@24,False,False,bl5_no_collision_free_plan,False,True,0,,10.2,,0,0,1.4
+T1,T1_OURS,OURS,H4178101_E1_CONTROL_R3,NOMINAL,78103,stalk1_exit,petiole2@28|petiole0@355|stalk1@587,True,True,,True,True,0,,2.96,283.2,0,0,103.6
+T1,T1_BL5,BL5,H4178201_E2_BL5_R3,NOMINAL,78103,petiole2_exit,petiole2@24,False,False,bl5_no_collision_free_plan,False,True,0,,10.2,,0,0,1.0
+T1,T1_BL5E_V1,BL5E_V1,H4179101_T1_BL5E_S78101,NOMINAL,78101,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,5.38,,0,0,32.5
+T1,T1_BL5E_V1,BL5E_V1,H4179101_T1_BL5E_S78102,NOMINAL,78102,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,6.68,,0,0,48.8
+T1,T1_BL5E_V1,BL5E_V1,H4179101_T1_BL5E_S78103,NOMINAL,78103,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,10.2,,0,0,68.7
+T1,T1_BL5E_V1,BL5E_V1,H4179101_T1_BL5E_S79101,NOMINAL,79101,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,False,82,blade_near_out_scope,4.38,,0,0,48.3
+T1,T1_BL5E_V1,BL5E_V1,H4179101_T1_BL5E_S79102,NOMINAL,79102,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,4.18,,0,0,36.7
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_JOINT_0_POS_S78201,JOINT_0_POS,78201,petiole2_exit,petiole2@29,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,10.99,,0,0,45.9
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_JOINT_0_POS_S79201,JOINT_0_POS,79201,petiole2_exit,petiole2@29,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,9.38,,0,0,23.2
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_JOINT_0_POS_S79202,JOINT_0_POS,79202,petiole2_exit,petiole2@29,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,4.49,,0,0,37.5
+T2,T2_BL5,BL5,H4178301_E3A_BL5_JOINT_0_POS,JOINT_0_POS,78201,petiole2_exit,petiole2@25,False,False,bl5_no_collision_free_plan,False,True,0,,10.41,,0,0,0.9
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_JOINT_1_POS_S78201,JOINT_1_POS,78201,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,False,5,blade_near_out_scope,2.33,,0,0,36.7
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_JOINT_1_POS_S79201,JOINT_1_POS,79201,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,5.89,,0,0,25.0
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_JOINT_1_POS_S79202,JOINT_1_POS,79202,petiole2_exit,petiole2@28,False,False,bl5e_no_collision_free_plan,False,True,0,,14.1,,0,0,66.2
+T2,T2_BL5,BL5,H4178301_E3A_BL5_JOINT_1_POS,JOINT_1_POS,78201,petiole2_exit,petiole2@24,False,False,bl5_no_collision_free_plan,False,True,0,,10.46,,0,0,0.9
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_X_NEG_S78201,TRANSLATION_X_NEG,78201,petiole2_exit,petiole2@53,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,2.63,,0,0,41.7
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_X_NEG_S79201,TRANSLATION_X_NEG,79201,petiole2_exit,petiole2@53,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,2.63,,0,0,25.3
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_X_NEG_S79202,TRANSLATION_X_NEG,79202,petiole2_exit,petiole2@53,False,False,bl5e_no_collision_free_plan,False,True,0,,2.63,,0,0,52.5
+T2,T2_BL5,BL5,H4178301_E3A_BL5_TRANSLATION_X_NEG,TRANSLATION_X_NEG,78201,petiole2_exit,petiole2@24,False,False,bl5_no_collision_free_plan,False,True,0,,2.63,,0,0,1.1
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_X_POS_S78201,TRANSLATION_X_POS,78201,petiole2_exit,petiole2@12,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,False,1,blade_near_out_scope,5.48,,0,0,38.3
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_X_POS_S79201,TRANSLATION_X_POS,79201,stalk1_exit,petiole2@12|petiole0@446|stalk1@812,True,True,,False,False,454,blade_force_out_scope|blade_near_out_scope|nonblade_lt2mm,-4.03,96.0,0,0,63.2
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_X_POS_S79202,TRANSLATION_X_POS,79202,petiole2_exit,petiole2@12,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,6.73,,0,0,82.1
+T2,T2_BL5,BL5,H4178301_E3A_BL5_TRANSLATION_X_POS,TRANSLATION_X_POS,78201,petiole2_exit,petiole2@24,False,False,bl5_no_collision_free_plan,False,True,0,,11.24,,0,0,0.9
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Y_NEG_S78201,TRANSLATION_Y_NEG,78201,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,3.38,,0,0,34.5
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Y_NEG_S79201,TRANSLATION_Y_NEG,79201,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,4.56,,0,0,20.7
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Y_NEG_S79202,TRANSLATION_Y_NEG,79202,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,7.06,,0,0,79.4
+T2,T2_BL5,BL5,H4178301_E3A_BL5_TRANSLATION_Y_NEG,TRANSLATION_Y_NEG,78201,petiole2_exit,petiole2@26,False,False,bl5_no_collision_free_plan,False,True,0,,10.8,,0,0,0.9
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Y_POS_S78201,TRANSLATION_Y_POS,78201,petiole2_exit,petiole2@27,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,4.15,,0,0,51.8
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Y_POS_S79201,TRANSLATION_Y_POS,79201,petiole2_exit,petiole2@27,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,5.74,,0,0,20.4
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Y_POS_S79202,TRANSLATION_Y_POS,79202,petiole2_exit,petiole2@27,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,5.74,,0,0,53.5
+T2,T2_BL5,BL5,H4178301_E3A_BL5_TRANSLATION_Y_POS,TRANSLATION_Y_POS,78201,petiole2_exit,petiole2@22,False,False,bl5_no_collision_free_plan,False,True,0,,5.74,,0,0,0.9
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Z_NEG_S78201,TRANSLATION_Z_NEG,78201,petiole2_exit,petiole2@53,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,5.18,,0,0,39.2
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Z_NEG_S79201,TRANSLATION_Z_NEG,79201,petiole2_exit,petiole2@53,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,4.04,,0,0,27.8
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Z_NEG_S79202,TRANSLATION_Z_NEG,79202,petiole2_exit,petiole2@53,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,15.0,,0,0,79.8
+T2,T2_BL5,BL5,H4178301_E3A_BL5_TRANSLATION_Z_NEG,TRANSLATION_Z_NEG,78201,petiole2_exit,petiole2@24,False,False,bl5_no_collision_free_plan,False,True,0,,11.49,,0,0,0.9
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Z_POS_S78201,TRANSLATION_Z_POS,78201,petiole2_exit,petiole2@25,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,False,25,blade_near_out_scope,4.5,,0,0,28.5
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Z_POS_S79201,TRANSLATION_Z_POS,79201,stalk1_exit,petiole2@25|petiole0@464|stalk1@721,True,True,,False,False,39,blade_near_out_scope|landing_force_gt300N|nonblade_lt2mm,1.84,682.8,0,0,37.6
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_TRANSLATION_Z_POS_S79202,TRANSLATION_Z_POS,79202,petiole2_exit,petiole2@25,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,3.95,,0,0,27.4
+T2,T2_BL5,BL5,H4178301_E3A_BL5_TRANSLATION_Z_POS,TRANSLATION_Z_POS,78201,petiole2_exit,petiole2@24,False,False,bl5_no_collision_free_plan,False,True,0,,5.44,,0,0,1.1
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_YAW_NEG_S78201,YAW_NEG,78201,none,,False,False,bl5e_no_collision_free_plan,False,True,0,,51.89,,0,0,14.4
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_YAW_NEG_S79201,YAW_NEG,79201,none,,False,False,bl5e_no_collision_free_plan,False,True,0,,51.89,,0,0,12.5
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_YAW_NEG_S79202,YAW_NEG,79202,none,,False,False,bl5e_no_collision_free_plan,False,True,0,,51.89,,0,0,12.9
+T2,T2_BL5,BL5,H4178301_E3A_BL5_YAW_NEG,YAW_NEG,78201,petiole2_exit,petiole2@25,False,False,bl5_no_collision_free_plan,False,True,0,,7.06,,0,0,1.1
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_CONTACT_DROP3_FORCE08_S78201,CONTACT_DROP3_FORCE08,78201,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,2.42,,0,0,34.3
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_CONTACT_DROP3_FORCE08_S79201,CONTACT_DROP3_FORCE08,79201,petiole2_exit,petiole2@28,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,5.55,,0,0,22.5
+T2,T2_BL5E2,BL5E2,H4179211_T2_BL5E2_CONTACT_DROP3_FORCE08_S79202,CONTACT_DROP3_FORCE08,79202,stalk1_exit,petiole2@28|petiole0@464|stalk1@720,True,True,,False,False,11,landing_force_gt300N|nonblade_lt2mm,1.51,780.0,0,0,60.9
+T2,T2_BL5,BL5,H4178301_E3A_BL5_CONTACT_DROP3_FORCE08,CONTACT_DROP3_FORCE08,78201,petiole2_exit,petiole2@24,False,False,bl5_no_collision_free_plan,False,True,0,,10.2,,0,0,1.0
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78301_S78301,h4178_unseen_78301,78301,stalk1_exit,petiole2@17|petiole0@334|stalk1@601,True,True,,False,False,5,landing_force_gt300N,4.72,828.1,0,0,51.8
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78301_S79301,h4178_unseen_78301,79301,stalk1_release,petiole2@17|petiole0@345|stalk1@637,True,True,,False,False,15,blade_near_out_scope|landing_force_gt300N|nonblade_lt2mm|ungated_CUT,-1.32,545.9,1,0,48.2
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78301_S79302,h4178_unseen_78301,79302,stalk1_exit,petiole2@17|petiole0@349|stalk1@600,True,True,,False,False,5,landing_force_gt300N,4.84,828.3,0,0,46.5
+T3,T3_BL5,BL5,H4178401_E3B_BL5_h4178_unseen_78301,h4178_unseen_78301,78301,petiole2_exit,petiole2@29,False,False,bl5_no_collision_free_plan,False,True,0,,8.04,,0,0,1.1
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78302_S78302,h4178_unseen_78302,78302,petiole2_exit,petiole2@147,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,3.55,,0,0,51.1
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78302_S79301,h4178_unseen_78302,79301,stalk1_exit,petiole2@147|petiole0@509|stalk1@780,True,True,,False,False,47,landing_force_gt300N|nonblade_lt2mm,-1.0,464.5,0,0,60.6
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78302_S79302,h4178_unseen_78302,79302,petiole2_exit,petiole2@147,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,5.22,,0,0,36.7
+T3,T3_BL5,BL5,H4178401_E3B_BL5_h4178_unseen_78302,h4178_unseen_78302,78302,petiole2_exit,petiole2@41,False,False,bl5_no_collision_free_plan,False,True,0,,5.31,,0,0,1.4
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78303_S78303,h4178_unseen_78303,78303,stalk1_exit,petiole2@13|petiole0@330|stalk1@574,True,True,,False,False,5,blade_near_out_scope|landing_force_gt300N,6.72,788.0,0,0,37.6
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78303_S79301,h4178_unseen_78303,79301,stalk1_exit,petiole2@13|petiole0@330|stalk1@625,True,True,,False,False,11,blade_near_out_scope|landing_force_gt300N,5.17,788.0,0,0,46.7
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78303_S79302,h4178_unseen_78303,79302,stalk1_exit,petiole2@13|petiole0@358|stalk1@673,True,True,,False,False,5,blade_near_out_scope|landing_force_gt300N,5.88,815.2,0,0,38.6
+T3,T3_BL5,BL5,H4178401_E3B_BL5_h4178_unseen_78303,h4178_unseen_78303,78303,petiole2_exit,petiole2@32,False,False,bl5_no_collision_free_plan,False,True,0,,11.92,,0,0,0.9
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78304_S78304,h4178_unseen_78304,78304,none,,False,False,bl5e_no_collision_free_plan,False,True,0,,148.54,,0,0,14.2
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78304_S79301,h4178_unseen_78304,79301,none,,False,False,bl5e_no_collision_free_plan,False,True,0,,148.54,,0,0,12.7
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78304_S79302,h4178_unseen_78304,79302,none,,False,False,bl5e_no_collision_free_plan,False,True,0,,148.54,,0,0,14.2
+T3,T3_BL5,BL5,H4178401_E3B_BL5_h4178_unseen_78304,h4178_unseen_78304,78304,none,,False,False,bl5_no_collision_free_plan,False,True,0,,148.75,,0,0,0.8
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78305_S78305,h4178_unseen_78305,78305,petiole2_exit,petiole2@98,False,False,"h4178_uniform_no_release_within_480_frames:('petiole', 0)",False,True,0,,4.03,,0,0,27.6
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78305_S79301,h4178_unseen_78305,79301,stalk1_release,petiole2@98|petiole0@511|stalk1@803,True,True,,False,False,6,blade_near_out_scope|landing_force_gt300N,3.88,642.7,0,0,60.5
+T3,T3_BL5E2,BL5E2,H4179311_T3_BL5E2_h4178_unseen_78305_S79302,h4178_unseen_78305,79302,stalk1_exit,petiole2@98|petiole0@507|stalk1@739,True,True,,False,False,57,blade_near_out_scope|landing_force_gt300N,3.47,483.7,0,0,51.8
+T3,T3_BL5,BL5,H4178401_E3B_BL5_h4178_unseen_78305,h4178_unseen_78305,78305,petiole2_exit,petiole2@25,False,False,bl5_no_collision_free_plan,False,True,0,,12.29,,0,0,1.1

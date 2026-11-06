@@ -1,0 +1,6 @@
+case,seed,status,passed,safety,frames,n_cut,nonblade_min_mm,last_state,administrative_stop,failure_category,rejecting_gate,refusal_reasons
+H4177222_STAGE_B_B2_CONTACT_DROP3_FORCE08_01,77222,NOT_STARTED,,,,,,,,,,
+H4177223_STAGE_B_B2_CONTACT_DROP3_FORCE08_02,77223,NOT_STARTED,,,,,,,,,,
+H4177224_STAGE_B_B2_CONTACT_DROP3_FORCE08_03,77224,finished,False,True,32,0,10.204,approach_cut,finite_material_contact_refit_budget_exhausted,administrative_stop,incomplete_or_wrong_CUT_order,"{""cut:cutter"": 33, ""cut:contact"": 31, ""cut:blade_face"": 28, ""cut:cut_zone"": 28}"
+H4177225_STAGE_B_B2_CONTACT_DROP3_FORCE08_01R,77222,finished,False,True,32,0,10.204,approach_cut,finite_material_contact_refit_budget_exhausted,administrative_stop,incomplete_or_wrong_CUT_order,"{""cut:cutter"": 33, ""cut:contact"": 31, ""cut:blade_face"": 28, ""cut:cut_zone"": 28}"
+H4177226_STAGE_B_B2_CONTACT_DROP3_FORCE08_02R,77223,finished,False,True,32,0,10.204,approach_cut,finite_material_contact_refit_budget_exhausted,administrative_stop,incomplete_or_wrong_CUT_order,"{""cut:cutter"": 33, ""cut:contact"": 31, ""cut:blade_face"": 28, ""cut:cut_zone"": 28}"

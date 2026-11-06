@@ -1,0 +1,9 @@
+key,n,all_three_cuts_gated,env_termination_success,landing_success,safety_failed,no_collision_free_plan_stop,uniform_480_stop,failure_class_units,three_cut_failure_patterns
+T1|T1_BL5E2,5,0,0,0,0,0,5,{},{}
+T1|T1_OURS,3,3,3,3,0,0,0,{},"{""none"": 3}"
+T1|T1_BL5,3,0,0,0,0,0,0,{},{}
+T1|T1_BL5E_V1,5,0,0,0,1,0,5,"{""blade_near_out_scope"": 1}",{}
+T2|T2_BL5E2,30,3,3,0,6,5,22,"{""blade_near_out_scope"": 5, ""blade_force_out_scope"": 1, ""nonblade_lt2mm"": 3, ""landing_force_gt300N"": 2}","{""blade_force_out_scope|blade_near_out_scope|nonblade_lt2mm"": 1, ""blade_near_out_scope|landing_force_gt300N|nonblade_lt2mm"": 1, ""landing_force_gt300N|nonblade_lt2mm"": 1}"
+T2|T2_BL5,10,0,0,0,0,0,0,{},{}
+T3|T3_BL5E2,15,9,9,0,9,3,3,"{""landing_force_gt300N"": 9, ""blade_near_out_scope"": 6, ""nonblade_lt2mm"": 2, ""ungated_CUT"": 1}","{""landing_force_gt300N"": 2, ""blade_near_out_scope|landing_force_gt300N|nonblade_lt2mm|ungated_CUT"": 1, ""landing_force_gt300N|nonblade_lt2mm"": 1, ""blade_near_out_scope|landing_force_gt300N"": 5}"
+T3|T3_BL5,5,0,0,0,0,0,0,{},{}
