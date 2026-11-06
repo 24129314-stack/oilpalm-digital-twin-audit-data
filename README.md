@@ -173,7 +173,7 @@ The frozen `.py` scripts in `B_…/preregistration_and_freezes/` (stage_b_run.py
 
 ## 8. Checking the headline numbers
 
-Every number below can be recomputed from this package with pandas. All paths are relative to the package root.
+Run `python reproduce_numbers.py` from the repository root to recompute the headline numbers of Tables 5 and 8–11 and Figs. 5, 7, 8 and 10 (requires pandas). The short excerpt below shows the idea. All paths are relative to the package root.
 
 ```python
 import pandas as pd
