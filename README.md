@@ -8,6 +8,10 @@ This package contains the run-level data behind the manuscript *"Auditing Select
 
 Version: v1 (2026-11-06). Contact: [corresponding author, see manuscript].
 
+## Demonstration video
+
+[media/selective_harvest_demo_2026-09-28.mp4](media/selective_harvest_demo_2026-09-28.mp4) (75 s, 2560 × 1600, recorded 2026-09-28) is a screen recording of the digital twin in Isaac Sim. It shows the rover-mounted arm approaching a palm crown, the third-person view, and the arm-camera view of the fresh fruit bunches and petioles. It is a qualitative illustration from the S1-era development stage, not one of the preregistered S3 runs.
+
 ---
 
 ## 1. Folder map
