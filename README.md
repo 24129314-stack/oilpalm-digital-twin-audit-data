@@ -6,7 +6,7 @@ This package contains the run-level data behind the manuscript *"Auditing Select
 - **PROVENANCE.csv** maps each file to the original frozen data package it came from, with SHA-256 hashes of the original and of the copy.
 - **SHA256SUMS.txt** lists the SHA-256 hash of every file in this package.
 
-Version: v1 (2026-11-06). Authors: Pengyuan Shao, Tiong Yew Tang, Mohammad Ahmed Alomari, Warusia Yassin, Muaadh Mukred, Chian C. Ho, Kok Seng Eu. Contact: Pengyuan Shao (24129314@sunwayeducation.info).
+Version: v1 (2026-11-06). Authors: Pengyuan Shao, Tiong Yew Tang, Muaadh Mukred, Mohammad Ahmed Alomari, Warusia Yassin, Chian C. Ho, Kok Seng Eu. Contact: Pengyuan Shao (24129314@sunwayeducation.info; ORCID [0009-0009-9808-9712](https://orcid.org/0009-0009-9808-9712)).
 
 ## Demonstration video
 
