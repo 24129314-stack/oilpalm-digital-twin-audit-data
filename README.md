@@ -1,12 +1,12 @@
 # Supplementary Data: Auditing Selective Oil Palm Harvesting in a Physics-Gated Digital Twin
 
-This package contains the run-level data behind the manuscript *"Auditing Selective Oil Palm Harvesting in a Physics-Gated Digital Twin: Success Predicates, Full-Arm Clearance, and Generalization Limits"* (submitted to IEEE Access). It has the per-run tables, the figure source data, the preregistrations and freeze records, the safety-stop reports and the cumulative launch ledger.
+This package contains the run-level data behind the manuscript *"Auditing Selective Oil Palm Harvesting in a Physics-Gated Digital Twin: Success Criteria, Full-Arm Clearance, and Generalization Limits"* (submitted to IEEE Access). It has the per-run tables, the figure source data, the preregistrations and freeze records, the safety-stop reports and the cumulative launch ledger.
 
 - **DATA_DICTIONARY.md** explains every column of every CSV file: what it means, its unit, and the values observed in that file.
 - **PROVENANCE.csv** maps each file to the original frozen data package it came from, with SHA-256 hashes of the original and of the copy.
 - **SHA256SUMS.txt** lists the SHA-256 hash of every file in this package.
 
-Version: v1 (2026-11-06). Contact: [corresponding author, see manuscript].
+Version: v1 (2026-11-06). Authors: Pengyuan Shao, Tiong Yew Tang, Mohammad Ahmed Alomari, Warusia Yassin, Muaadh Mukred, Chian C. Ho, Kok Seng Eu. Contact: Pengyuan Shao (24129314@sunwayeducation.info).
 
 ## Demonstration video
 
