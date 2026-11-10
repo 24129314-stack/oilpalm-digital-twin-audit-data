@@ -227,4 +227,10 @@ cd D_S3_fair_planner_BL5e/preregistration_and_freezes && sha256sum -c H4179_PRER
 
 ## 11. License and citation
 
-[To be completed by the authors: license, e.g. CC BY 4.0, and the citation of the published article and data DOI.]
+All files in this repository, including the data, documentation, video and `reproduce_numbers.py`, are released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); the full text is in [LICENSE](LICENSE). You may share and adapt them for any purpose, provided you give appropriate credit.
+
+Please cite the article when using these data:
+
+> P. Shao, T. Y. Tang, M. Mukred, M. A. Alomari, M. H. F. Md Fauadi, C. C. Ho, and K. S. Eu, "Auditing Selective Oil Palm Harvesting in a Physics-Gated Digital Twin: Success Criteria, Full-Arm Clearance, and Generalization Limits," submitted to *IEEE Access*, 2026.
+
+The citation will be updated with the volume, pages and DOI after publication.
